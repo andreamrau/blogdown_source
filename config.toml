@@ -272,30 +272,32 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 3
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 4
-
-[[menu.main]]
-  name = "Software"
-  url = "#software"
-  weight = 5
-
-[[menu.main]]
-  name = "Advising"
-  url = "#advising"
-  weight = 6
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 7
 
 [[menu.main]]
   name = "Latest news"
   url = "#posts"
+  weight = 4
+
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[menu.main]]
+  name = "Software"
+  url = "#software"
+  weight = 6
+
+[[menu.main]]
+  name = "Advising"
+  url = "#advising"
+  weight = 7
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
   weight = 8
+
 
 # Taxonomies.
 #[taxonomies]
