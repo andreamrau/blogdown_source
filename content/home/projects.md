@@ -33,7 +33,7 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "RNA-seq analysis"
+  name = "RNA-seq co-expression"
   tag = ".rna-seq"
 
 [[filter]]

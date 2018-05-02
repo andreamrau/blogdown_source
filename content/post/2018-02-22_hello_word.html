@@ -1,0 +1,30 @@
+---
+title: Setting up *blogdown*
+author: ~
+date: 2018-02-22
+slug: hello-blogdown
+categories: ["R"]
+tags: ["blogdown"]
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<p>I recently decided that I wanted to move my professional homepage from a free page set up on <a href="http://andrearau.wordpress.com">WordPress</a> to <a href="https://pages.github.com/">GitHub Pages</a> using <a href="https://github.com/rstudio/blogdown">blogdown</a> by <a href="https://yihui.name/en">Yihui Xi</a>. There were basically two reasons for this: (1) Because I only sprang for the free WordPress site, there are gigantic, ugly ads that appear on every single page. I only recently realized this as I was usually viewing my WordPress site while being logged on – and apparently, the ads only appear for other people. Needless to say, I found this very unappealing, but am also not willing to pay a huge subscription fee. (2) I love coding in R, and do a lot of my analysis work in reproducible <a href="https://rmarkdown.rstudio.com/">Rmarkdown</a> documents, and as such it seemed like it would be an easy move over to <code>blogdown</code> – this means I would be able to maintain my website in R, have a lot more flexibility and control over the look of my website, and avoid those ugly WordPress ads.</p>
+<p>To set up my new GitHub Pages website, I found the following two blogs to be extremely helpful:</p>
+<ul>
+<li><a href="https://tclavelle.github.io/blog/blogdown_github/" class="uri">https://tclavelle.github.io/blog/blogdown_github/</a></li>
+<li><a href="https://alison.rbind.io/post/up-and-running-with-blogdown/" class="uri">https://alison.rbind.io/post/up-and-running-with-blogdown/</a></li>
+</ul>
+<p>I basically went through the first link step-by-step to create my website. To summarize:</p>
+<ol style="list-style-type: decimal">
+<li>I created a new repository for my blogdown source content.</li>
+<li>I installed Hugo using the <code>install_hugo()</code> function from <code>blogdown</code>.</li>
+<li>I built the template for the new site using `blogdown::new_site(theme = “gcushen/hugo-academic”, theme_example = TRUE).</li>
+<li>I changed the <code>config.toml</code> configuration file to set the <code>baseurl</code> to my GitHub URL using <code>baseurl = &quot;https://&lt;username&gt;.github.io/&quot;</code>, and I told blogdown which directory to place the rendered site in using <code>publishDir = &quot;../&lt;username&gt;.github.io&quot;.</code></li>
+<li>Finally, I can create new content using the <code>new_post()</code> and <code>new_content()</code> functions from <code>blogdown</code>.</li>
+<li>I can then render the site locally using <code>serve_site()</code>, and I can build the site using <code>build_site()</code>. After building the site and staging all changed files to both repsoitories, all that’s left to do is commit changes and push the new site to GitHub.</li>
+</ol>
+<p>For hosting it on GitHub, I used the second option from <a href="https://tclavelle.github.io/blog/blogdown_github/">this link</a> – namely, I have two repositories (including an extra one to store the source content and tell <code>blogdown</code> to publish the site to my <code>username.github.io</code> repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file <code>.nojekyll</code> to my <code>username.github.io</code> repository to make sure that GitHub does not rebuild the website using Jekyll.</p>
