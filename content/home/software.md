@@ -15,25 +15,13 @@ weight = 50
 
 +++
 
+- [**maskmeans**](https://github.com/andreamrau/maskmeans): Multi-view aggregation/splitting K-means clustering algorithm.
+- [**Edge in TCGA**](http://ls-shiny-prod.uwm.edu/edge_in_tcga/): An R/Shiny interactive web application for the exploration of drivers of gene expression in [The Cancer Genome Atlas](https://cancergenome.nih.gov/).
+- [**coseq**](https://bioconductor.org/packages/coseq/): Co-expression analysis of sequencing data.
+- [**ICAL**](https://github.com/Gallopin/ICAL): Model selection for model based clustering of annotated data.
+- [**metaRNASeq**](https://cran.r-project.org/web/packages/metaRNASeq/index.html): Meta-analysis of RNA-seq data.
+- [**HTSDiff**](https://r-forge.r-project.org/R/?group_id=1504): Differential analysis for RNA-seq data.
+- [**HTSFilter**](http://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html): Filter for replicated high-throughput sequencing data.
+- [**HTSCluster**](http://cran.r-project.org/web/packages/HTSCluster): Clustering high-throughput sequencing data with Poisson mixture models.
+- [**ebdbNet**](http://cran.r-project.org/web/packages/ebdbNet): Empirical Bayes estimation for dynamic Bayesian networks.
 
-- Edge in TCGA: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas.
-Release version available on shinyapps.io.
-- coseq: Co-expression analysis of sequencing data.
-Release version available on Bioconductor.
-Development version available on Github.
-- ICAL: Model selection for model based clustering of annotated data.
-Available on Github.
-- metaRNASeq: Meta-analysis of RNA-seq data.
-Release version available on CRAN.
-Development version available on the R-Forge.
-- HTSDiff: Differential analysis for RNA-seq data.
-Development version available on the R-Forge.
-- HTSFilter: Filter for replicated high-throughput sequencing data.
-Release version available on Bioconductor.
-Development version available on Bioconductor.
-- HTSCluster: Clustering high-throughput sequencing data.
-Release version available on CRAN.
-Development version available on the R-Forge.
-- ebdbNet: Empirical Bayes estimation for dynamic Bayesian networks.
-Release version available on CRAN.
-Development version available on Github.

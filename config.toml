@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait_ar.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "andrea.rau@inra.fr, raua@uwm.edu"
+  email = "andrea.rau@inra.fr"
   address = "Domaine de Vilvert, Bâtiment 211, 78352 Jouy-en-Josas, France"
   office_hours = "Email for appointment"
   phone = "+33 (0)1.34.65.22.82"

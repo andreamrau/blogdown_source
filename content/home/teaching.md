@@ -16,6 +16,6 @@ weight = 40
 +++
 
 
-I am a teaching instructor for the following course at the University of Wisconsin-Milwaukee
+I am a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
 
-- PH718: Data management and visualization
+- [UWM](https://uwm.edu/) PH718: Data management and visualization
