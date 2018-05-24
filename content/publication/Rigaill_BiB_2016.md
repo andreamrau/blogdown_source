@@ -3,7 +3,7 @@ title = "Synthetic datasets for the identification of key ingredients for RNA-se
 date = "2016-10-14"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Rigaill, G.", "Balzergue, S.", "Brunaud, V.", "Blondet, E.", "Rau, A.", "Rogier, O.", "Caius, J.",  "Maugis-Rabusseau, C.", "Soubigou-Taconnat, L.", "Aubourg, S.", "Lurin, C.", "Martin-Magniette, M.-L.", and "Delannoy, E."]
+authors = ["Rigaill, G.", "Balzergue, S.", "Brunaud, V.", "Blondet, E.", "**Rau, A.**", "Rogier, O.", "Caius, J.",  "Maugis-Rabusseau, C.", "Soubigou-Taconnat, L.", "Aubourg, S.", "Lurin, C.", "Martin-Magniette, M.-L.", "Delannoy, E."]
 
 # Publication type.
 # Legend:

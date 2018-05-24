@@ -3,7 +3,7 @@ title = " Identification of marginal causal relationships in gene networks from 
 date = "2017-03-16"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["G Monneret", "F Jaffr&eacute;zic", "A Rau", "T Zerjal", "G Nuel"]
+authors = ["Monneret, G.", "Jaffr&eacute;zic, F.", "**Rau, A.**", "Zerjal, T.", "Nuel, G."]
 
 # Publication type.
 # Legend:
@@ -29,7 +29,7 @@ abstract_short = ""
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

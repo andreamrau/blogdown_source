@@ -3,7 +3,7 @@ title = "Transformation and model choice for RNA-seq co-expression analysis"
 date = "2018-05-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["A Rau", "C Maugis-Rabusseau"]
+authors = ["**Rau, A.**", "Maugis-Rabusseau, C."]
 
 # Publication type.
 # Legend:

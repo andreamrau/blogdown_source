@@ -3,7 +3,7 @@ title = "Clustering transformed compositional data using K-means, with applicati
 date = "2018-04-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["A Godichon-Baggioni", "C Maugis-Rabusseau", "A Rau"]
+authors = ["Godichon-Baggioni, A.", "Maugis-Rabusseau, C.", "**Rau, A.**"]
 
 # Publication type.
 # Legend:
