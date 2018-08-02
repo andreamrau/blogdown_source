@@ -1,6 +1,6 @@
 +++
 title = "Estimation d'effets causaux dans les reseaux de regulation genique : vers la grande dimension"
-date = "2015-02-29"
+date = "2015-02-28"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Monneret, G.", "Jaffr&eacute;zic, F.", "**Rau, A.**", "Nuel, G."]
@@ -17,7 +17,7 @@ authors = ["Monneret, G.", "Jaffr&eacute;zic, F.", "**Rau, A.**", "Nuel, G."]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "*Revue d'intelligence artificielle*, 29(2): 205-227."
+publication = "*Revue d'intelligence artificielle*, 29(2): 205-227"
 
 # Abstract and optional shortened version.
 abstract = "In this paper we propose a method which can infer causal links. In particular we focus on the diffculty of high dimensional cases. We begin by introducing a recent model that we will modify to improve performance. We add a skeleton and a Ridge penalty. We finish with some numerical simulations."

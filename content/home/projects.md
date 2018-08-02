@@ -34,11 +34,15 @@ filter_default = 0
 
 [[filter]]
   name = "RNA-seq co-expression"
-  tag = ".rna-seq"
-
+  tag = ".rnaseq"
+  
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "Networks"
+  tag = ".networks"
+  
+[[filter]]
+  name = "Multi-omic integration"
+  tag = ".integration"
 
 +++
 
