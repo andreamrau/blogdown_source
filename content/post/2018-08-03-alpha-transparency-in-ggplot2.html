@@ -1,0 +1,62 @@
+---
+title: Mapping transparency in ggplot2 to a continuous variable
+author: Andrea Rau
+date: '2018-08-03'
+slug: alpha-transparency-in-ggplot2
+categories: ["R"]
+tags: ["ggplot2"]
+header:
+  caption: ''
+  image: ''
+---
+
+
+
+<div id="tldr-use-i-to-treat-a-numeric-variable-in-a-data.frame-as-is-and-avoid-unintended-conversion-when-mapping-to-transparency-in-a-ggplot2-aesthetic." class="section level4">
+<h4>tl;dr: Use <code>I()</code> to treat a numeric variable in a <code>data.frame</code> “as is” and avoid unintended conversion when mapping to transparency in a <code>ggplot2</code> aesthetic.</h4>
+<p>Today I ran into a <code>ggplot2</code> plotting problem involving mapping the transparency aesthetic to a numeric variable – this drove me crazy until I figured it out.</p>
+<p>Here’s the basic set-up: I wanted to plot a scatterplot of two variables, but have the transparency of the points be controlled by a third (numeric) variable. I also happened to be using programmatic aesthetic mappings (<code>aes_string</code>) rather than non-standard evaluation of aesthetics (<code>aes</code>), so it took me a while to figure out whether the problem was related to this (it wasn’t).</p>
+<p>As an example, consider the <code>mpg</code> fuel economy data that is shipped as part of the <code>ggplot2</code> package. In order to play around with it, I’m going to add a few new numeric variables called <code>alpha_random</code>, <code>alpha_small</code>, and <code>alpha_big</code>. So when mapping transparency to each of them, I should get variably transparent points, extremely transparent points, and totally opaque points, respectively.</p>
+<pre class="r"><code>library(tidyverse)
+library(cowplot)
+theme_set(theme_bw())
+
+data(mpg)
+mpg &lt;- mpg %&gt;% mutate(alpha_random = runif(nrow(mpg)),
+                      alpha_small = 0.01,
+                      alpha_big = 1)</code></pre>
+<p>Next, a simple scatterplot between <code>cty</code> and <code>hwy</code> where I map the transparency to the <code>alpha_random</code>.</p>
+<pre class="r"><code>ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
+  geom_point()</code></pre>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="336" /> So this seems strange – my <code>alpha_random</code> variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought <code>alpha_random</code> was numeric?</p>
+<pre class="r"><code>class(mpg$alpha_random)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<p>What if I force it to be numeric in my <code>ggplot2</code> call?</p>
+<pre class="r"><code>ggplot(mpg, aes(cty, hwy, alpha=as.numeric(alpha_random))) +
+  geom_point()</code></pre>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-4-1.png" width="384" /></p>
+<p>Weird – no change. Let’s see what happens when I use one of the other transparency variables I created.</p>
+<pre class="r"><code>g1 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_small)) +
+  geom_point() 
+g2 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_big)) +
+  geom_point() 
+plot_grid(g1, g2)</code></pre>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-5-1.png" width="576" /></p>
+<p>Very weird – they look exactly the same (and the same as before!), and there is still variable transparency being plotted, even though <code>alpha_small</code> and <code>alpha_big</code> are both constants. What is going on here?!? Transparency seems to work if it’s specified outside of the aesthetic as a constant:</p>
+<pre class="r"><code>ggplot(mpg, aes(cty, hwy)) +
+  geom_point(alpha=0.01) </code></pre>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-6-1.png" width="288" /></p>
+<p>After some desparate Googling, I finally figured out that I needed to be using the <code>I()</code> function to change the class of my transparency variable to indicate that it should be treated “as is”. (Note: given its short name, this was not an easy function to Google help for, btw!)</p>
+<pre class="r"><code>mpg &lt;- mpg %&gt;%
+  mutate(alpha_small = I(alpha_small),
+         alpha_big = I(alpha_big),
+         alpha_random = I(alpha_random))
+g3 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_small)) +
+  geom_point() 
+g4 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_big)) +
+  geom_point()
+g5 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
+  geom_point() 
+plot_grid(g3, g4, g5, nrow=1)</code></pre>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" /> Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the <code>data.frame</code> to be used for transparency using <code>I()</code> to protect it from conversion.</p>
+</div>
