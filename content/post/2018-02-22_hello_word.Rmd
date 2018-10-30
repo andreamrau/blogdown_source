@@ -34,5 +34,7 @@ I basically went through the first link step-by-step to create my website. To su
 
 For hosting it on GitHub, I used the second option from [this link](https://tclavelle.github.io/blog/blogdown_github/) -- namely, I have two repositories (including an extra one to store the source content and tell `blogdown` to publish the site to my `username.github.io` repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file `.nojekyll` to my `username.github.io` repository to make sure that GitHub does not rebuild the website using Jekyll.
 
+---
 
+As an addendum to this post, I also followed Ming Tang's [instructions](https://divingintogeneticsandgenomics.rbind.io/post/hugo-academic-theme-blog-down-deployment-some-details/) for customizing my website, primarily by changing the `config.toml` file. Notably, I changed the menu bar from white to black, added a CV section, and inactivated the selected publication and contact widgets.
 

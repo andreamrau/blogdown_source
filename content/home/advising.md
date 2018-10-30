@@ -7,13 +7,23 @@ active = true
 date = "2016-04-20T00:00:00"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Advising"
+title = "Advising & Teaching"
 subtitle = ""
 
 # Order that this section will appear in.
 weight = 60
 
 +++
+
+
+
+I was a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
+
+- [UWM](https://uwm.edu/) PH718: Data management and visualization
+
+---
+
+**Alumni**:
 
 - **Dr. Gilles Monneret** (2014-2018 Ph.D.): "Estimation of causal effects in gene networks from observational and intervention data" (co-supervision with [Gr&eacute;gory Nuel](http://nuel.perso.math.cnrs.fr/) and [Florence Jaffr&eacute;zic](http://www6.jouy.inra.fr/gabi_eng/Who-are-we/Directory-of-GABI-members/JAFFREZIC-florence))
 - **Rapha&euml;lle Momal-Leisenring** (2017 M2 internship): "Integrative statistical analysis of multi-omics data"

@@ -41,6 +41,6 @@ My research interests involve applying statistical reasoning to problems that br
 1. Inferring gene regulatory networks from microarray data, particularly through the use of time-course and intervention (gene knockout and knockdown) experiments, and
 2. Developing sound statistical methods for the analysis of RNA-seq data, including differential expression analyses, co-expression analyses, and network inference methods.
 
-I'm currently on a 20-month sabbatical (October 2017-May 2019) through an AgreenSkills+ fellowship to work with my colleague Dr. Paul Livermore Auer at the Zilber School of Public Health at the University of Wisconsin-Milwaukee.
+I'm currently on a 20-month sabbatical (October 2017-May 2019) through an [AgreenSkills+](https://www.agreenskills.eu/) fellowship to work with my colleague [Dr. Paul Livermore Auer](http://people.uwm.edu/pauer/) at the [Zilber School of Public Health](https://uwm.edu/publichealth/) at the [University of Wisconsin-Milwaukee](https://uwm.edu/).
 
 

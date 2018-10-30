@@ -46,7 +46,7 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "default"
+  color_theme = "custom"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
@@ -268,13 +268,13 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Talks"
+  url = "#talks"
   weight = 3
 
 [[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
+  name = "Publications"
+  url = "#publications"
   weight = 4
 
 [[menu.main]]
@@ -283,13 +283,13 @@ defaultContentLanguageInSubdir = false
   weight = 5
 
 [[menu.main]]
-  name = "Advising"
+  name = "Advising & Teaching"
   url = "#advising"
   weight = 6
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
+  name = "CV"
+  url = "#cv"
   weight = 7
 
 [[menu.main]]

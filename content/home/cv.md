@@ -4,18 +4,15 @@
 # To create more sections, duplicate this file and edit the values below as desired.
 widget = "custom"
 active = true
-date = "2016-04-20T00:00:00"
+date = 2016-04-20T00:00:00
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Teaching"
+title = "CV"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 40
+weight = 70
 
 +++
 
-
-I am a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
-
-- [UWM](https://uwm.edu/) PH718: Data management and visualization
+Find my CV in PDF [here](cv/Rau-Andrea_CV.pdf).
