@@ -1,7 +1,7 @@
 +++
 # Recent Publications widget.
 # This widget displays recent publications from `content/publication/`.
-widget = "publications"
+widget = "custom"
 active = true
 date = 2016-04-20
 
@@ -11,28 +11,228 @@ subtitle = ""
 # Order that this section will appear in.
 weight = 30
 
-# Number of publications to list.
-count = 30
-
-# List format.
-#   0 = Simple
-#   1 = Detailed
-#   2 = APA
-#   3 = MLA
-list_format = 3
-
-# Filter by publication type.
-# -1: Any
-#  0: Uncategorized
-#  1: Conference proceedings
-#  2: Journal
-#  3: Work in progress
-#  4: Technical report
-#  5: Book
-#  6: Book chapter
-publication_type = "-1"
-
-# Exclude publications that are shown in the Selected Publications widget?
-exclude_selected = false
 +++
 
+## Book
+1. Albert, I., Ancelet, S., David, O., Denis, J.-B., Makowski, D., Parent, &Eacute;, **Rau, A.**, and Soubeyrand, S. (2015). *Initiation &agrave; la statistique bay&eacute;sienne : Bases th&eacute;oriques et applications en alimentation, environnmenet, &eacute;pid&eacute;miologie et g&eacute;n&eacute;tique*. &Eacute;ditions Ellipses, collection r&eacute;f&eacute;rences sciences. 
+<a class="btn btn-primary btn-outline btn-xs" href="http://maiage.jouy.inra.fr/?q=fr/bbb.accueil.html" target="_blank" rel="noopener">
+  Code
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.editions-ellipses.fr/product_info.php?products_id=10293" target="_blank" rel="noopener">
+  Publisher link
+</a>
+
+## Dissertations
+1. **Rau, A.** (2017) Statistical methods and software for the analysis of transcriptomic data. HDR (Habilitation &agrave; diriger des recherches) thesis, Universit&eacute; d'&Eacute;vry Val-d'Essonne.
+<a class="btn btn-primary btn-outline btn-xs" href="http://prodinra.inra.fr/ft?id=2922C029-96B2-4A41-9B9B-6FB981ABADA6" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://speakerdeck.com/andreamrau/hdr-defense-presentation" target="_blank" rel="noopener">
+  Slides
+</a>    
+*Note: HDR is a high-level (post-PhD) degree granted by French universities that provides an accreditation to supervise research.*
+
+1. **Rau, A.** (2010) Reverse engineering gene networks using genomic time-course data. PhD thesis, Purdue University.
+<a class="btn btn-primary btn-outline btn-xs" href="https://docs.lib.purdue.edu/dissertations/AAI3444841/" target="_blank" rel="noopener">
+  PDF
+</a> 
+
+## Statistical methods
+1. **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, doi: https://doi.org/10.1101/227926
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2017/12/02/227926" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="ls-shiny-prod.uwm.edu/edge_in_tcga/" target="_blank" rel="noopener">
+  Shiny app
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/EDGE-in-TCGA" target="_blank" rel="noopener">
+ Code
+</a> 
+
+1. Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2018) Clustering transformed compositional data using K-means, with applications in gene expression and bicycle sharing system data. *Journal of Applied Statistics*, 46(1):47-65.
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1704.06150" target="_blank" rel="noopener">
+  Preprint
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.tandfonline.com/doi/abs/10.1080/02664763.2018.1454894?journalCode=cjas20" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://bioconductor.org/packages/release/bioc/html/coseq.html" target="_blank" rel="noopener">
+  Code
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="project/rnaseq-coexpression" target="_blank" rel="noopener">
+  Project
+</a> 
+
+1. **Rau, A.** and Maugis-Rabusseau, C. (2018) Transformation and model choice for RNA-seq co-expression analysis. *Briefings in Bioinformatics*, bbw128, https://doi.org/10.1093/bib/bbw128.
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2016/07/24/065607" target="_blank" rel="noopener">
+  Preprint
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="http://academic.oup.com//bib/article/doi/10.1093/bib/bbw128/2870509/Transformation-and-model-choice-for-RNAseq?guestAccessKey=83aebf08-b670-4da2-b227-dc5f5acab354" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://bioconductor.org/packages/release/bioc/html/coseq.html" target="_blank" rel="noopener">
+  Code
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="project/rnaseq-coexpression" target="_blank" rel="noopener">
+  Project
+</a> 
+
+1. Monneret, G., Jaffr&eacute;zic, F., **Rau, A.**, Zerjal, T. and Nuel, G. (2017) Identification of marginal causal relationships in gene networks from observational and interventional expression data. *PLoS One* 12(3): e0171142.
+<a class="btn btn-primary btn-outline btn-xs" href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0171142" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/Monneret/MarginalCausality" target="_blank" rel="noopener">
+  Code
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="project/networks" target="_blank" rel="noopener">
+  Project
+</a> 
+
+1. Rigaill, G., Balzergue, S., Brunaud, V., Blondet, E., **Rau, A.**, Rogier, O., Caius, J.,  Maugis-Rabusseau, C., Soubigou-Taconnat, L., Aubourg, S., Lurin, C., Martin-Magniette, M.-L., and Delannoy, E. (2016) Synthetic datasets for the identification of key ingredients for RNA-seq differential analysis. *Briefings in Bioinformatics*, doi: https://doi.org/10.1093/bib/bbw092.
+<a class="btn btn-primary btn-outline btn-xs" href="https://academic.oup.com/bib/article/doi/10.1093/bib/bbw092/2339782/Synthetic-data-sets-for-the-identification-of-key" target="_blank" rel="noopener">
+  PDF
+</a> 
+
+1. Gallopin, M., Celeux, G., Jaffr&eacute;zic, F., **Rau, A.** (2015) A model selection criterion for model-based clustering of annotated gene expression data. *Statistical Applications in Genetics and Molecular Biology*, 14(5): 413-428.
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.degruyter.com/view/j/sagmb.2015.14.issue-5/sagmb-2014-0095/sagmb-2014-0095.xml" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/Gallopin/ICAL" target="_blank" rel="noopener">
+  Code
+</a> 
+
+1. Monneret, G., Jaffr&eacute;zic, F., **Rau, A.**, Nuel, G. (2015) Estimation d'effets causaux dans les r&eacute;seaux de r&eacute;gulation g&eacute;nique : vers la grande dimension. *Revue d'intelligence artificielle*, 29(2): 205-227.
+<a class="btn btn-primary btn-outline btn-xs" href="http://ria.revuesonline.com/article.jsp?articleId=20894" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/GBNcausal" target="_blank" rel="noopener">
+  Code
+</a> 
+
+1. **Rau, A.**, Maugis-Rabusseau, C., Martin-Magniette, M.-L., Celeux, G. (2015) Co-expression analysis of high-throughput transcriptome sequencing data with Poisson mixture models. *Bioinformatics*, 31(9): 1420-1427.
+<a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01108821" target="_blank" rel="noopener">
+  Preprint
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="http://bioinformatics.oxfordjournals.org/content/early/2015/01/05/bioinformatics.btu845.abstract" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://cran.r-project.org/web/packages/HTSCluster" target="_blank" rel="noopener">
+  Code
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="project/rnaseq-coexpression" target="_blank" rel="noopener">
+  Project
+</a> 
+
+1. **Rau, A.**, Marot, G. and Jaffr&eacute;zic, F. (2014) Differential meta-analysis of RNA-seq data from multiple studies. *BMC Bioinformatics*, 15:91.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.biomedcentral.com/1471-2105/15/91/abstract" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://cran.r-project.org/web/packages/metaRNASeq/index.html" target="_blank" rel="noopener">
+  Code
+</a>
+
+1. Nuel, G., **Rau, A.**, and Jaffr&eacute;zic, F. (2013) Using pairwise ordering preferences to estimate causal effects in gene expression from a mixture of observational and intervention experiments. *Quality Technology and Quantitative Management* 11(1):23-37.
+<a class="btn btn-primary btn-outline btn-xs" href="http://web.it.nctu.edu.tw/~qtqm/qtqmpapers/2014V11N1/2014V11N1_F2.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. **Rau, A.**, Jaffr&eacute;zic, F., and Nuel, G. (2013) Joint estimation of causal effects from observational and intervention gene expression data. *BMC Systems Biology* 7:111.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.biomedcentral.com/1752-0509/7/111/abstract" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/GBNcausal" target="_blank" rel="noopener">
+  Code
+</a> 
+
+1. Gallopin, M. **Rau, A.**, and Jaffr&eacute;zic, F. (2013). A hierarchical Poisson log-normal model for network inference from RNA sequencing data. *PLoS One* 8(10): e77503.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.plosone.org/article/info:doi/10.1371/journal.pone.0077503" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. **Rau, A.**, Gallopin, M., Celeux, G., and Jaffr&eacute;zic, F. (2013). Data-based filtering for replicated high-throughput transcriptome sequencing experiments. *Bioinformatics* 29(17): 2146-2152.
+<a class="btn btn-primary btn-outline btn-xs" href="http://bioinformatics.oxfordjournals.org/content/29/17/2146" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html" target="_blank" rel="noopener">
+  Code
+</a>
+
+1. Dillies, M.-A.&sup1;, **Rau, A.&sup1;**, Aubert, J.&sup1;, Hennequet-Antier, C.&sup1;, Jeanmougin, M.&sup1;, Servant, N.&sup1;, Keime, C.&sup1;, Marot, G., Castel, D., Estelle, J., Guernec, G., Jagla, B., Jouneau, L., Lalo&euml;, D., Le Gall, C., Scha&euml;ffer, B., Charif, D., Le Crom, S.&sup1;, Guedj, M.&sup1;, and Jaffr&eacute;zic, F&sup1;. (2012). A comprehensive evaluation of normalization methods for Illumina high-throughput RNA sequencing data analysis. *Briefings in Bioinformatics*, doi:10.1093/bib/bbs046.
+<a class="btn btn-primary btn-outline btn-xs" href="http://bib.oxfordjournals.org/content/14/6/671.abstract?sid=20bf56d5-b2c7-4de2-867d-e533fec9db25" target="_blank" rel="noopener">
+  PDF
+</a>    
+&sup1;These authors contributed equally to this work.
+
+1. **Rau, A.**, Jaffr&eacute;zic, F., Foulley, J.-L., and Doerge, R. W. (2012). Reverse engineering gene regulatory networks using approximate Bayesian computation. *Statistics and Computing*, 22: 1257-1271.
+<a class="btn btn-primary btn-outline btn-xs" href="https://arxiv.org/abs/1109.1402" target="_blank" rel="noopener">
+  Preprint
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="http://link.springer.com/article/10.1007\%2Fs11222-011-9309-1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. **Rau, A.**, Jaffr&eacute;zic, F., Foulley, J.-L., and Doerge, R. W. (2010). An empirical Bayesian method for estimating biological networks from temporal microarray data. *Statistical Applications in Genetics and Molecular Biology*: Vol. 9: Iss. 1, Article 9.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.degruyter.com/view/j/sagmb.2010.9.1/sagmb.2010.9.1.1513/sagmb.2010.9.1.1513.xml" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://cran.r-project.org/web/packages/ebdbNet" target="_blank" rel="noopener">
+  Code
+</a>
+
+## Statistical applications
+1. Verrier, E., Genet, C., Lalo&euml;, D., Jaffr&eacute;zic, J.,  **Rau, A.**, Esquerre, D., Dechamp, N., Ciobataru, C., Hervet, C., Krieg, F., Quillet, E., Boudinot, P. (2018) Genetic and transcriptomic analyses provide new insights on the early antiviral response to VHSV in resistant and susceptible rainbow trout. *BMC Genomics*, 19:482.
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4860-1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Maroilley, T., Berri, M., Lemonnier, G., Esquerr&eacute;, D., Chevaleyre, C., M&eacute;lo, S., Meurens, F., Coville, J.L., Leplat, J.J, **Rau, A.**, Bed'hom, B., Vincent-Naulleau, S., Mercat, M.J., Billon, Y., Lepage, P., Rogel-Gaillard, C., and Estell&eacute;, J. (2018). Immunome differences between porcine ileal and jejunal Peyer's patches revealed by global transcriptome sequencing of gut-associated lymphoid tissues. *Scientific Reports*, 8:9077. 
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.nature.com/articles/s41598-018-27019-7" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Mondet, F., **Rau, A.**, Klopp, C., Rohmer, M. Severac, D., Le Conte, Y., and Alaux, C. (2018). Transcriptome profiling of the honeybee parasite Varroa destructor provides new biological insights into the mite adult life cycle. *BMC Genomics*, 19:328.
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-4668-z" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. He, B., Tjhung, K., Bennett, N., Chou, Y., **Rau, A.**, Huang, J., and Derda, R. (2018). Compositional bias in na&iuml;ve and chemically-modified phage-displayed libraries uncovered by paired-end deep sequencing. *Scientific Reports*, 8:1214.
+<a class="btn btn-primary btn-outline btn-xs" href="http://rdcu.be/E4Zi" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Sauvage, C., **Rau, A.**, Aichholz, C., Chadoeuf, J., Sarah, G., Ruiz, M., Santoni, S., Causse, M., David, J., Gl&eacute;min, S. (2017) Domestication rewired gene expression and nucleotide diversity patterns in tomato. *The Plant Journal* 91(4):631-645.
+<a class="btn btn-primary btn-outline btn-xs" href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.13592/abstract" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Endale Ahanda, M.-L., Zerjal, T., Dhorne-Pollet, S., **Rau, A.**, Cooksey, A., and Giuffra, E. (2014) Impact of the genetic background on the composition of the chicken plasma miRNome in response to a stress. *PLoS One*, 9(12): e114598.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.plosone.org/article/info\%3Adoi\%2F10.1371\%2Fjournal.pone.0114598" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Brenault, P., Lefevre, L. **Rau, A.**, Lalo&emul;, D., Pisoni, G., Moroni, P., Bevilacquia, C. and Martin, P. (2013) Contribution of mammary epithelial cells to the immune response during early stages of a bacterial infection to Staphylococcus aureus. *Veterinary Research*, 45:16. [link]
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.veterinaryresearch.org/content/45/1/16" target="_blank" rel="noopener">
+  PDF
+</a>
+
+1. Furth, A., Mandrekar, S., Tan, A. **Rau, A.**, Felten, S., Ames, M. Adjei, A. Erlichman, C. and Reid, J. (2008). A limited sample model to predict area under the drug concentration curve for 17-(allylamino)-17-demethoxygeldanamycin and its active metabolite 17-(amino)-17-demethoxygeldanomycin. *Cancer Chemotherapy Pharmacology*, 61(1): 39-45.
+
+
+## Book chapters
+1. Martin-Magniette, M.-L., Maugis-Rabusseau, C. and **Rau, A.** (2017) Clustering of co-expressed genes. In: *Model Choice and Model Aggregation*. Ed. F. Bertrand, J.-J. Droesbeke, G. Saporta, C. Thomas-Agnan.
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.editionstechnip.com/fr/catalogue-detail/2247/model-choice-and-model-aggregation.html" target="_blank" rel="noopener">
+  Publisher link
+</a>
+
+## Submitted and pre-prints
+1. Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. Livestock genome annotation: transcriptome and chromatin structure profiling in cattle, goat, chicken, and pig. *bioRxiv*, doi: https://doi.org/10.1101/316091.
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091l" target="_blank" rel="noopener">
+  Preprint
+</a>
+
+1. Jehl, F., Klopp, C., Brenet, M., **Rau, A.**, D&eacute;sert, C., Boutin, M., Leroux, S., Muret, K.,  Esquerr&eacute;, D., Gourichon, D., Burlot, T., Pitel, F., Zerjal, T., Lagarrigue, S. Phenotype and multi-tissue transcriptome response to diet energy change in laying hens. *In preparation.*
+
+1. Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2018) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *In preparation.* 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/maskmeans" target="_blank" rel="noopener">
+  Code
+</a>

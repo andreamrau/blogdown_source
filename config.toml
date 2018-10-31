@@ -233,9 +233,9 @@ defaultContentLanguageInSubdir = false
     link = "http://scholar.google.com/citations?user=9__bzfgAAAAJ&hl=en"
 
   [[params.social]]
-    icon = "GitHub"
-    icon_pack = "ai"
-    link = "//github.com/andreamrau"
+    icon = "github"
+    icon_pack = "fa"
+    link = "http://www.github.com/andreamrau"
 
   [[params.social]]
     icon = "orcid"
@@ -247,6 +247,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "ai"
     link = "//researchgate.net/profile/Andrea_Rau"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/andrea-rau-8133a17/​"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -293,7 +297,7 @@ defaultContentLanguageInSubdir = false
   weight = 7
 
 [[menu.main]]
-  name = "Latest news"
+  name = "Posts"
   url = "#posts"
   weight = 8
 

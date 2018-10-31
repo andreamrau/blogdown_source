@@ -36,10 +36,7 @@ weight = 5
 
 # Biography
 
-My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on two objectives:
-
-1. Inferring gene regulatory networks from microarray data, particularly through the use of time-course and intervention (gene knockout and knockdown) experiments, and
-2. Developing sound statistical methods for the analysis of RNA-seq data, including differential expression analyses, co-expression analyses, and network inference methods.
+My research interests involve applying statistical reasoning to problems that bring together the fields of biology, genomics, bioinformatics, and statistics. I am especially interested in the development of statistical methodology for the analysis of high-dimensional genomic and transcriptomic data, and the implementation of such methods in open-source R/Bioconductor packages. My research is primarily focused on developing sound statistical methods for the analysis of genomic and transcriptomic data, including differential expression analyses, co-expression analyses, network inference, and integrative multi-omic analyses.
 
 I'm currently on a 20-month sabbatical (October 2017-May 2019) through an [AgreenSkills+](https://www.agreenskills.eu/) fellowship to work with my colleague [Dr. Paul Livermore Auer](http://people.uwm.edu/pauer/) at the [Zilber School of Public Health](https://uwm.edu/publichealth/) at the [University of Wisconsin-Milwaukee](https://uwm.edu/).
 

@@ -16,3 +16,7 @@ weight = 70
 +++
 
 Find my full CV in PDF [here](cv/Rau_Andrea_CV.pdf).
+
+![](cv/Rau_Andrea_visual-CV.png)
+
+
