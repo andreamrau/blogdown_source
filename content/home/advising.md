@@ -15,7 +15,9 @@ weight = 60
 
 +++
 
+I am an adjunct instructor for the following graduate course at the Medical College of Wisconsin in Spring 2019:
 
+- [MCW](https://www.mcw.edu/departments/physiology/education) Physiological Genomics: Bioinformatics module
 
 I was a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
 
