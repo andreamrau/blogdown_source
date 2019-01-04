@@ -51,6 +51,8 @@ weight = 30
 
 <center>**2018**</center>
 
+* Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2018) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *G3: Genes|Genomes|Genetics* (accepted).
+
 * **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, bty551, doi: https://doi.org/10.1101/227926.
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/02/227926" target="_blank" rel="noopener">
   Preprint
@@ -319,6 +321,8 @@ weight = 30
 </a>
 
 ## Submitted and in preparation
+* Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
+
 * Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2018) Livestock genome annotation: transcriptome and chromatin structure profiling in cattle, goat, chicken, and pig. *bioRxiv*, doi: https://doi.org/10.1101/316091. *Submitted.*
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091l" target="_blank" rel="noopener">
   Preprint
@@ -335,10 +339,6 @@ weight = 30
   Code
 </a>
 
-* Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2018) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *Submitted*.
-
 * Tsaih, S.-W., Plasterer, C., Lemke, A., Ran, S. **Rau, A.**, Auer, P., Rui, H. and Flister, M. J. (2018) Genetic mapping of pathophysiological modifiers in the breast tumor microenvironment. *Submitted*.
 
 * Jehl, F., Klopp, C., Brenet, M., **Rau, A.**, D&eacute;sert, C., Boutin, M., Leroux, S., Muret, K.,  Esquerr&eacute;, D., Gourichon, D., Burlot, T., Pitel, F., Zerjal, T., Lagarrigue, S. (2018) Phenotype and multi-tissue transcriptome response to diet energy change in laying hens. *In preparation.*
-
-* Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2018) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *In preparation.*
