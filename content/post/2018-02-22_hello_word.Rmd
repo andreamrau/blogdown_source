@@ -38,3 +38,22 @@ For hosting it on GitHub, I used the second option from [this link](https://tcla
 
 As an addendum to this post, I also followed Ming Tang's [instructions](https://divingintogeneticsandgenomics.rbind.io/post/hugo-academic-theme-blog-down-deployment-some-details/) for customizing my website, primarily by changing the `config.toml` file. Notably, I changed the menu bar from white to black, added a CV section, and inactivated the selected publication and contact widgets.
 
+---
+
+As a second addendum to this post, I also decided to set up a custom domain for this website. I had previously purchased the domain (www.andrea-rau.com) through WordPress, without ever even really understanding how it worked. As it was coming up for renewal, I decided to transfer it to [Google Domains](https://domains.google/), which was a very straightforward process (I essentially clicked the link for "I'd like to transfer instead", followed the instructions, clicked the appropriate link sent to my email, and voila!). Once I had my domain in my Google Domains account (it took a couple of days for the transfer to complete), the process for setting up the custom domain for my website was very easy -- although I actually found the GitHub documentation to be somewhat hard to follow. I instead followed most of the steps listed [here](https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b), with the only exception being that I made sure to use the updated GitHub IP addresses:
+
+1. Add a `CNAME` file in the `MYUSERNAME.github.io` repository that looked like the following, and committed and pushed the changes to my repo:
+```
+andrea-rau.com
+www.andrea-rau.com
+```
+2. In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the `Custom resource records` box. There I added one `@` record of type `A` for the following four IP addresses, as described in the [GitHub Pages help](https://help.github.com/articles/setting-up-an-apex-domain/): 
+
+- `185.199.108.153`
+- `185.199.109.153`
+- `185.199.110.153`
+- `185.199.111.153`
+
+Then I added one `www` record of type `CNAME` for my GitHub Pages address, `MYUSERNAME.github.io`.
+
+3. Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for `Enforce HTTPS`.

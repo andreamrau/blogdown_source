@@ -31,3 +31,21 @@ header:
 <p>For hosting it on GitHub, I used the second option from <a href="https://tclavelle.github.io/blog/blogdown_github/">this link</a> – namely, I have two repositories (including an extra one to store the source content and tell <code>blogdown</code> to publish the site to my <code>username.github.io</code> repository each time I build it, meaning I have to remember to push both repositories to GitHub when I make updates). The only other change from the tutorial I used was to add the hidden file <code>.nojekyll</code> to my <code>username.github.io</code> repository to make sure that GitHub does not rebuild the website using Jekyll.</p>
 <hr />
 <p>As an addendum to this post, I also followed Ming Tang’s <a href="https://divingintogeneticsandgenomics.rbind.io/post/hugo-academic-theme-blog-down-deployment-some-details/">instructions</a> for customizing my website, primarily by changing the <code>config.toml</code> file. Notably, I changed the menu bar from white to black, added a CV section, and inactivated the selected publication and contact widgets.</p>
+<hr />
+<p>As a second addendum to this post, I also decided to set up a custom domain for this website. I had previously purchased the domain (www.andrea-rau.com) through WordPress, without ever even really understanding how it worked. As it was coming up for renewal, I decided to transfer it to <a href="https://domains.google/">Google Domains</a>, which was a very straightforward process (I essentially clicked the link for “I’d like to transfer instead”, followed the instructions, clicked the appropriate link sent to my email, and voila!). Once I had my domain in my Google Domains account (it took a couple of days for the transfer to complete), the process for setting up the custom domain for my website was very easy – although I actually found the GitHub documentation to be somewhat hard to follow. I instead followed most of the steps listed <a href="https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b">here</a>, with the only exception being that I made sure to use the updated GitHub IP addresses:</p>
+<ol style="list-style-type: decimal">
+<li><p>Add a <code>CNAME</code> file in the <code>MYUSERNAME.github.io</code> repository that looked like the following, and committed and pushed the changes to my repo:</p>
+<pre><code>andrea-rau.com
+www.andrea-rau.com</code></pre></li>
+<li><p>In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the <code>Custom resource records</code> box. There I added one <code>@</code> record of type <code>A</code> for the following four IP addresses, as described in the <a href="https://help.github.com/articles/setting-up-an-apex-domain/">GitHub Pages help</a>:</p></li>
+</ol>
+<ul>
+<li><code>185.199.108.153</code></li>
+<li><code>185.199.109.153</code></li>
+<li><code>185.199.110.153</code></li>
+<li><code>185.199.111.153</code></li>
+</ul>
+<p>Then I added one <code>www</code> record of type <code>CNAME</code> for my GitHub Pages address, <code>MYUSERNAME.github.io</code>.</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for <code>Enforce HTTPS</code>.</li>
+</ol>
