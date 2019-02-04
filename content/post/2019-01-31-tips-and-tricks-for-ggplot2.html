@@ -1,0 +1,46 @@
+---
+title: Tips and tricks for ggplot2
+author: ~
+date: '2019-01-31'
+slug: tips-and-tricks-for-ggplot2
+categories: [R]
+tags: [ggplot2]
+header:
+  caption: ''
+  image: ''
+  preview: yes
+output:
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+
+<p>Like many (most?) users of the <code>ggplot2</code> visualization package, I often find myself (re-)looking up how to do specific tasks. In an effort to streamline by Googling and avoid searching over and over again for solutions to the same issues, this post will gather together some of the assorted tips and tricks that I’ve recently looked up.</p>
+<div id="including-an-inset-graph" class="section level3">
+<h3>Including an inset graph</h3>
+<p>I found this tip <a href="https://stackoverflow.com/questions/5219671/it-is-possible-to-create-inset-graphs">here</a>, using the <code>cowplot</code> package. The <code>x</code>, <code>y</code>, <code>width</code>, and <code>height</code> parameters in the <code>draw_plot</code> function can be used to adjust the position and size of the inset graph.</p>
+<pre class="r"><code>library(ggplot2)
+library(cowplot)
+data(mtcars)
+
+main_plot &lt;- ggplot(mtcars) + 
+  geom_point(aes(x=mpg, y=disp, color=factor(cyl))) +
+  scale_color_discrete(name = &quot;Cylinders&quot;) +
+  theme_classic()
+
+inset_plot &lt;- ggplot(mtcars) + 
+  geom_density(aes(x=mpg, fill=factor(cyl), color=factor(cyl)),
+               alpha = 0.35) +
+  guides(fill=FALSE, color=FALSE) +
+  theme_classic()
+
+plot_with_inset &lt;- 
+  ggdraw() +
+  draw_plot(main_plot) +
+  draw_plot(inset_plot, x = 0.4, y = 0.6, width = 0.4, height = 0.4)
+
+plot_with_inset</code></pre>
+<p><img src="/post/2019-01-31-tips-and-tricks-for-ggplot2_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+</div>
