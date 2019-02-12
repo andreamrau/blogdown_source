@@ -49,9 +49,11 @@ weight = 30
 
 ## Journal Articles
 
-<center>**2018**</center>
+<center>**2019**</center>
 
-* Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2018) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *G3: Genes|Genomes|Genetics* (accepted).
+* Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2019) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *G3: Genes|Genomes|Genetics* (accepted).
+
+<center>**2018**</center>
 
 * **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, bty551, doi: https://doi.org/10.1101/227926.
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/02/227926" target="_blank" rel="noopener">
