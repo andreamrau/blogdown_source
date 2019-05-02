@@ -326,7 +326,7 @@ weight = 30
 * Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
 
 * Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2018) Livestock genome annotation: transcriptome and chromatin structure profiling in cattle, goat, chicken, and pig. *bioRxiv*, doi: https://doi.org/10.1101/316091. *Submitted.*
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091l" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091v2" target="_blank" rel="noopener">
   Preprint
 </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
@@ -342,5 +342,7 @@ weight = 30
 </a>
 
 * Tsaih, S.-W., Plasterer, C., Lemke, A., Ran, S. **Rau, A.**, Auer, P., Rui, H. and Flister, M. J. (2018) Genetic mapping of pathophysiological modifiers in the breast tumor microenvironment. *Submitted*.
+
+* Ramayo-Caldas, Y., Zingaretti, L., Bernard, A., Estell&eacute;, J. Popova, M., Pons, N., Bellot, P., Mach, N., **Rau, A.**, Roume, H., Perez-Encisco, M., Faverdin, P., Edouard, N., Dusko, S., Morgavi, D.P. and Renand, G. (2019) Identification of rumen microbial biomarkers linked to methane emission in Holstein dairy cows. *Submitted.*
 
 * Jehl, F., Klopp, C., Brenet, M., **Rau, A.**, D&eacute;sert, C., Boutin, M., Leroux, S., Muret, K.,  Esquerr&eacute;, D., Gourichon, D., Burlot, T., Pitel, F., Zerjal, T., Lagarrigue, S. (2018) Phenotype and multi-tissue transcriptome response to diet energy change in laying hens. *In preparation.*
