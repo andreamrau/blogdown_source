@@ -323,6 +323,24 @@ weight = 30
 </a>
 
 ## Submitted and in preparation
+
+* Dhara, S., **Rau, A.**, Flister, M., Recka, N., Laiosa, M., Auer, P., and Udvadia, A. (2019) Regulation of CNS regeneration-assocoiated genes is driven by a temporally changing cast of transcription factors. *bioRxiv*.  
+<a class="btn btn-primary btn-outline btn-xs" href="http://ls-shiny-prod.uwm.edu/rosetta/" target="_blank" rel="noopener">
+ Shiny app
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/OpticRegen_2019" target="_blank" rel="noopener">
+ Code
+</a> 
+
+* **Rau, A.**, Dhara, S., Udvadia, A., and Auer, P. (2019) *Regeneration Rosetta*: An interactive web application to explore
+regeneration-associated gene expression and chromatin accessibility. *bioRxiv*.  
+<a class="btn btn-primary btn-outline btn-xs" href="http://ls-shiny-prod.uwm.edu/rosetta/" target="_blank" rel="noopener">
+ Shiny app
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/rosetta" target="_blank" rel="noopener">
+ Code
+</a> 
+
 * Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
 
 * Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2018) Livestock genome annotation: transcriptome and chromatin structure profiling in cattle, goat, chicken, and pig. *bioRxiv*, doi: https://doi.org/10.1101/316091. *Submitted.*
