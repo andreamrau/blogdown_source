@@ -53,6 +53,8 @@ weight = 30
 
 * Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2019) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *G3: Genes|Genomes|Genetics* (accepted).
 
+* Ramayo-Caldas, Y., Zingaretti, L., Bernard, A., Estell&eacute;, J. Popova, M., Pons, N., Bellot, P., Mach, N., **Rau, A.**, Roume, H., Perez-Encisco, M., Faverdin, P., Edouard, N., Dusko, S., Morgavi, D.P. and Renand, G. (2019) Identification of rumen microbial biomarkers linked to methane emission in Holstein dairy cows. *Journal of Animal Breeding and Genetics* (accepted).
+
 <center>**2018**</center>
 
 * **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, bty551, doi: https://doi.org/10.1101/227926.
@@ -343,7 +345,8 @@ regeneration-associated gene expression and chromatin accessibility. *bioRxiv*.
 
 * Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
 
-* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2018) Livestock genome annotation: transcriptome and chromatin structure profiling in cattle, goat, chicken, and pig. *bioRxiv*, doi: https://doi.org/10.1101/316091. *Submitted.*
+* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2018) Transcriptome and chromatin structure
+annotation of liver, CD4+ and CD8+ T cells from four livestock species. *bioRxiv*, doi: https://doi.org/10.1101/316091. *Submitted.*
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091v2" target="_blank" rel="noopener">
   Preprint
 </a>
@@ -361,6 +364,5 @@ regeneration-associated gene expression and chromatin accessibility. *bioRxiv*.
 
 * Tsaih, S.-W., Plasterer, C., Lemke, A., Ran, S. **Rau, A.**, Auer, P., Rui, H. and Flister, M. J. (2018) Genetic mapping of pathophysiological modifiers in the breast tumor microenvironment. *Submitted*.
 
-* Ramayo-Caldas, Y., Zingaretti, L., Bernard, A., Estell&eacute;, J. Popova, M., Pons, N., Bellot, P., Mach, N., **Rau, A.**, Roume, H., Perez-Encisco, M., Faverdin, P., Edouard, N., Dusko, S., Morgavi, D.P. and Renand, G. (2019) Identification of rumen microbial biomarkers linked to methane emission in Holstein dairy cows. *Submitted.*
 
-* Jehl, F., Klopp, C., Brenet, M., **Rau, A.**, D&eacute;sert, C., Boutin, M., Leroux, S., Muret, K.,  Esquerr&eacute;, D., Gourichon, D., Burlot, T., Pitel, F., Zerjal, T., Lagarrigue, S. (2018) Phenotype and multi-tissue transcriptome response to diet energy change in laying hens. *In preparation.*
+* Jehl, F., D&eacute;sert, C., Klopp, C., Brenet, M., **Rau, A.**,  Leroux, S., Boutin, M., Muret, K.,  Blum, Y., Esquerr&eacute;, D., Gourichon, D., Burlot, T., Collin, A., Pitel, F., Benani, A., Zerjal, T., Lagarrigue, S. (2019) Chicken adaptive response to low energy diet: main role of the hypothalamic lipid metabolism revealed by a phenotypic and multi-tissue transcriptomic approach. *Submitted.*
