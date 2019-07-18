@@ -367,5 +367,5 @@ annotation of liver, CD4+ and CD8+ T cells from four livestock species. *bioRxiv
 
 * Jehl, F., D&eacute;sert, C., Klopp, C., Brenet, M., **Rau, A.**,  Leroux, S., Boutin, M., Muret, K.,  Blum, Y., Esquerr&eacute;, D., Gourichon, D., Burlot, T., Collin, A., Pitel, F., Benani, A., Zerjal, T., Lagarrigue, S. (2019) Chicken adaptive response to low energy diet: main role of the hypothalamic lipid metabolism revealed by a phenotypic and multi-tissue transcriptomic approach. *Submitted.*
 
-* Livermore, M. A., Manansala, R., **Rau, A.**, and Auer, P. L. (2019) Using genetic data to estimate causal influences in the obesity-SES relationship. *To be submitted shortly.*
+* Livermore, M. A., Manansala, R., **Rau, A.**, and Auer, P. L. (2019) Using genetic data to estimate causal influences in the obesity-SES relationship. *To be submitted shortly. *
 
