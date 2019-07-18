@@ -24,7 +24,7 @@ header:
 <li>I created a new repository for my blogdown source content.</li>
 <li>I installed Hugo using the <code>install_hugo()</code> function from <code>blogdown</code>.</li>
 <li>I built the template for the new site using `blogdown::new_site(theme = “gcushen/hugo-academic”, theme_example = TRUE).</li>
-<li>I changed the <code>config.toml</code> configuration file to set the <code>baseurl</code> to my GitHub URL using <code>baseurl = &quot;https://&lt;username&gt;.github.io/&quot;</code>, and I told blogdown which directory to place the rendered site in using <code>publishDir = &quot;../&lt;username&gt;.github.io&quot;.</code></li>
+<li>I changed the <code>config.toml</code> configuration file to set the <code>baseurl</code> to my GitHub URL using <code>baseurl = "https://&lt;username&gt;.github.io/"</code>, and I told blogdown which directory to place the rendered site in using <code>publishDir = "../&lt;username&gt;.github.io".</code></li>
 <li>Finally, I can create new content using the <code>new_post()</code> and <code>new_content()</code> functions from <code>blogdown</code>.</li>
 <li>I can then render the site locally using <code>serve_site()</code>, and I can build the site using <code>build_site()</code>. After building the site and staging all changed files to both repsoitories, all that’s left to do is commit changes and push the new site to GitHub.</li>
 </ol>
@@ -34,10 +34,12 @@ header:
 <hr />
 <p>As a second addendum to this post, I also decided to set up a custom domain for this website. I had previously purchased the domain (www.andrea-rau.com) through WordPress, without ever even really understanding how it worked. As it was coming up for renewal, I decided to transfer it to <a href="https://domains.google/">Google Domains</a>, which was a very straightforward process (I essentially clicked the link for “I’d like to transfer instead”, followed the instructions, clicked the appropriate link sent to my email, and voila!). Once I had my domain in my Google Domains account (it took a couple of days for the transfer to complete), the process for setting up the custom domain for my website was very easy – although I actually found the GitHub documentation to be somewhat hard to follow. I instead followed most of the steps listed <a href="https://medium.com/employbl/launch-a-website-with-a-custom-url-using-github-pages-and-google-domains-3dd8d90cc33b">here</a>, with the only exception being that I made sure to use the updated GitHub IP addresses:</p>
 <ol style="list-style-type: decimal">
-<li><p>Add a <code>CNAME</code> file in the <code>MYUSERNAME.github.io</code> repository that looked like the following, and committed and pushed the changes to my repo:</p>
+<li>Add a <code>CNAME</code> file in the <code>MYUSERNAME.github.io</code> repository that looked like the following, and committed and pushed the changes to my repo:</li>
+</ol>
 <pre><code>andrea-rau.com
-www.andrea-rau.com</code></pre></li>
-<li><p>In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the <code>Custom resource records</code> box. There I added one <code>@</code> record of type <code>A</code> for the following four IP addresses, as described in the <a href="https://help.github.com/articles/setting-up-an-apex-domain/">GitHub Pages help</a>:</p></li>
+www.andrea-rau.com</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>In the Manage window of Google Domains for my domain, I clicked DNS and scrolled to the bottom to the <code>Custom resource records</code> box. There I added one <code>@</code> record of type <code>A</code> for the following four IP addresses, as described in the <a href="https://help.github.com/articles/setting-up-an-apex-domain/">GitHub Pages help</a>:</li>
 </ol>
 <ul>
 <li><code>185.199.108.153</code></li>

@@ -28,7 +28,8 @@ mpg &lt;- mpg %&gt;% mutate(alpha_random = runif(nrow(mpg)),
 <p>Next, a simple scatterplot between <code>cty</code> and <code>hwy</code> where I map the transparency to the <code>alpha_random</code>.</p>
 <pre class="r"><code>ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point()</code></pre>
-<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="336" /> So this seems strange – my <code>alpha_random</code> variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought <code>alpha_random</code> was numeric?</p>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-2-1.png" width="336" />
+So this seems strange – my <code>alpha_random</code> variable appears to have been converted to a 3-level factor (as can be seen by the automatically generated legend to the right). But I thought <code>alpha_random</code> was numeric?</p>
 <pre class="r"><code>class(mpg$alpha_random)</code></pre>
 <pre><code>## [1] &quot;numeric&quot;</code></pre>
 <p>What if I force it to be numeric in my <code>ggplot2</code> call?</p>
@@ -58,5 +59,6 @@ g4 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_big)) +
 g5 &lt;- ggplot(mpg, aes(cty, hwy, alpha=alpha_random)) +
   geom_point() 
 plot_grid(g3, g4, g5, nrow=1)</code></pre>
-<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" /> Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the <code>data.frame</code> to be used for transparency using <code>I()</code> to protect it from conversion.</p>
+<p><img src="/post/2018-08-03-alpha-transparency-in-ggplot2_files/figure-html/unnamed-chunk-7-1.png" width="576" />
+Much better – exactly what I was looking for! So the solution to my problem was making sure to change the class of the numeric variable in the <code>data.frame</code> to be used for transparency using <code>I()</code> to protect it from conversion.</p>
 </div>
