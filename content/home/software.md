@@ -15,8 +15,10 @@ weight = 50
 
 +++
 
+- [**padma**](https://github.com/andreamrau/padma): Pathway deviation scores using multiple factor analysis
 - [**Invest Astuces**](https://investastuces.com/simulateurs/): An R/Shiny interactive web application for financial and real estate loan simulations
-- [**Regeneration Rosetta**](http://ls-shiny-prod.uwm.edu/rosetta/): An R/Shiny interactive web application to exploreregeneration-associated gene expression and chromatin accessibility
+- [**Regeneration Rosetta**](http://ls-shiny-prod.uwm.edu/rosetta/): An R/Shiny interactive web application to explore
+regeneration-associated gene expression and chromatin accessibility
 - [**maskmeans**](https://github.com/andreamrau/maskmeans): Multi-view aggregation/splitting K-means clustering algorithm.
 - [**Edge in TCGA**](http://ls-shiny-prod.uwm.edu/edge_in_tcga/): An R/Shiny interactive web application for the exploration of drivers of gene expression in [The Cancer Genome Atlas](https://cancergenome.nih.gov/).
 - [**coseq**](https://bioconductor.org/packages/coseq/): Co-expression analysis of sequencing data.

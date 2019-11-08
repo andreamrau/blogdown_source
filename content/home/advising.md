@@ -15,13 +15,7 @@ weight = 60
 
 +++
 
-I am an adjunct instructor for the following graduate course at the Medical College of Wisconsin in Spring 2019:
-
-- [MCW](https://www.mcw.edu/departments/physiology/education) Physiological Genomics: Bioinformatics module
-
-I was a teaching instructor for the following course at the University of Wisconsin-Milwaukee in Spring 2018:
-
-- [UWM](https://uwm.edu/) PH718: Data management and visualization
+- **Fanny Mollandin** (2019-2022 Ph.D.): "Incorporating known functional annotations into Bayesian genomic prediction models" (co-supervision with Pascal Croiseau 
 
 ---
 
