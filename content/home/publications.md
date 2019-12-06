@@ -58,6 +58,9 @@ weight = 30
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/maskmeans" target="_blank" rel="noopener">
   Code
 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
+  ProdInra
+</a>
 
 * Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Transcriptome and chromatin structure
 annotation of liver, CD4+ and CD8+ T cells from four livestock species. *BMC Biology* (accepted). 
@@ -69,7 +72,7 @@ annotation of liver, CD4+ and CD8+ T cells from four livestock species. *BMC Bio
 </a>
 
 
-* Dhara, S., **Rau, A.**, Flister, M., Recka, N., Laiosa, M., Auer, P., and Udvadia, A. (2019) Regulation of CNS regeneration-associated genes is driven by a temporally changing cast of transcription factors. *Scientific Reports* 9:14198, doi: 10.1038/s41598-019-50485-6.
+* Dhara, S., **Rau, A.**, Flister, M., Recka, N., Laiosa, M., Auer, P., and Udvadia, A. (2019) Cellular reprogramming for successful CNS axon regeneration is driven by a temporally changing cast of transcription factors. *Scientific Reports* 9:14198, doi: 10.1038/s41598-019-50485-6.
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/638734v3" target="_blank" rel="noopener">
  Preprint
 </a> 
@@ -79,6 +82,12 @@ annotation of liver, CD4+ and CD8+ T cells from four livestock species. *BMC Bio
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/OpticRegen_2019" target="_blank" rel="noopener">
  Code
 </a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.nature.com/articles/s41598-019-50485-6" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/481438" target="_blank" rel="noopener">
+  ProdInra
+</a>
 
 * **Rau, A.**, Dhara, S., Udvadia, A., and Auer, P. (2019) *Regeneration Rosetta*: An interactive web application to explore
 regeneration-associated gene expression and chromatin accessibility. *G3: Genes|Genomes|Genetics*, doi: 10.1534/g3.119.400729..  
@@ -88,10 +97,32 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/rosetta" target="_blank" rel="noopener">
  Code
 </a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.g3journal.org/content/9/12/3953" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/481437" target="_blank" rel="noopener">
+  ProdInra
+</a>
+
 
 * Plasterer, C., Tsaih, S.-W., Lemke, A., Schilling, R., Dwinell, M., **Rau, A.**, Auer, P., Rui, H., Flister, M.J. (2019) Identification of a rat mammary tumor risk locus that is syntenic with the commonly amplified 8q12.1 and 8q22.1 regions in human breast cancer patients. *G3: Genes|Genomes|Genetics* 9(5):1739-1743. doi: 10.1534/g3.118.200873.
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.g3journal.org/content/9/5/1739" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/473094" target="_blank" rel="noopener">
+  ProdInra
+</a>
 
-* Ramayo-Caldas, Y., Zingaretti, L., Bernard, A., Estell&eacute;, J. Popova, M., Pons, N., Bellot, P., Mach, N., **Rau, A.**, Roume, H., Perez-Encisco, M., Faverdin, P., Edouard, N., Dusko, S., Morgavi, D.P. and Renand, G. (2019) Identification of rumen microbial biomarkers linked to methane emission in Holstein dairy cows. *Journal of Animal Breeding and Genetics*, doi: 10.1111/jbg.12427. 
+* Ramayo-Caldas, Y., Zingaretti, L., Bernard, A., Estell&eacute;, J. Popova, M., Pons, N., Bellot, P., Mach, N., **Rau, A.**, Roume, H., Perez-Encisco, M., Faverdin, P., Edouard, N., Dusko, S., Morgavi, D.P. and Renand, G. (2019) Identification of rumen microbial biomarkers linked to methane emission in Holstein dairy cows. *Journal of Animal Breeding and Genetics*, doi: 10.1111/jbg.12427.
+<a class="btn btn-primary btn-outline btn-xs" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/jbg.12427" target="_blank" rel="noopener">
+  PDF
+</a> 
+<a class="btn btn-primary btn-outline btn-xs" href="	
+https://prodinra.inra.fr/record/481441" target="_blank" rel="noopener">
+  ProdInra
+</a>
+
+
 
 <center>**2018**</center>
 
@@ -108,6 +139,9 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/EDGE-in-TCGA" target="_blank" rel="noopener">
  Code
 </a> 
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/452734" target="_blank" rel="noopener">
+  ProdInra
+</a>
 
 
 * Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2018) Clustering transformed compositional data using K-means, with applications in gene expression and bicycle sharing system data. *Journal of Applied Statistics*, 46(1):47-65.
@@ -120,7 +154,7 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 <a class="btn btn-primary btn-outline btn-xs" href="https://bioconductor.org/packages/release/bioc/html/coseq.html" target="_blank" rel="noopener">
   Code
 </a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/421247" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/481439" target="_blank" rel="noopener">
   ProdInra
 </a>
 
@@ -350,7 +384,11 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 </a>
 
 * Furth, A., Mandrekar, S., Tan, A. **Rau, A.**, Felten, S., Ames, M. Adjei, A. Erlichman, C. and Reid, J. (2008). A limited sample model to predict area under the drug concentration curve for 17-(allylamino)-17-demethoxygeldanamycin and its active metabolite 17-(amino)-17-demethoxygeldanomycin. *Cancer Chemotherapy Pharmacology*, 61(1): 39-45.
-
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="	
+https://prodinra.inra.fr/record/189243" target="_blank" rel="noopener">
+  ProdInra
+</a>  
 
 
 ## Book chapters
@@ -361,6 +399,9 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 <a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01943296" target="_blank" rel="noopener">
   HAL
 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/481436" target="_blank" rel="noopener">
+  ProdInra
+</a>  
 
 ## Submitted and in preparation
 
@@ -373,7 +414,7 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
 * Sellem, E., Marthey, S., **Rau, A.**, Jouneau, L., Bonnet, A., Perrier, J.-P., Fritz, S., Le Danvic, C. Boussaha, M., Kiefer, H., Jammes, H., Schiblier, L. (2019) A comprehensive overview of bull sperm-borne small non-coding RNAs and their diversity in six breeds. *Submitted.*
 
 * **Rau, A.**, Manansala, R., Flister, M. J., Rui, H., Jaffr&eacute;zic, F., Lalo&euml;, D.&sup1;, and Auer, P. L.&sup1; (2019) Individualized multi-omic pathway deviation scores using multiple factor analysis *bioRxiv*, https://doi.org/10.1101/827022. 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v1" target="_blank" rel="noopener">
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v2" target="_blank" rel="noopener">
   Preprint
 </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/RMFRJLA_2019" target="_blank" rel="noopener">

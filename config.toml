@@ -13,7 +13,7 @@ publishDir = "../andreamrau.github.io"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018"
+copyright = "&copy; 2019"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -291,15 +291,17 @@ defaultContentLanguageInSubdir = false
   url = "#advising"
   weight = 6
 
-[[menu.main]]
-  name = "CV"
-  url = "#cv"
-  weight = 7
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
+  weight = 7
+  
+[[menu.main]]
+  name = "CV"
+  url = "#cv"
   weight = 8
+
 
 # Taxonomies.
 #[taxonomies]
