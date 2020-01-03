@@ -51,6 +51,12 @@ weight = 30
 
 <center>**2019**</center>
 
+* Jehl, F., D&eacute;sert, C., Klopp, C., Brenet, M., **Rau, A.**,  Leroux, S., Boutin, M., Muret, K.,  Blum, Y., Esquerr&eacute;, D., Gourichon, D., Burlot, T., Collin, A., Pitel, F., Benani, A., Zerjal, T., Lagarrigue, S. (2019) Chicken adaptive response to low energy diet: main role of the hypothalamic lipid metabolism revealed by a phenotypic and multi-tissue transcriptomic approach. *BMC Genomics*, 20. doi: 10.1186/s12864-019-6384-8.  
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-6384-8" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
 * Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2019) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics* (accepted).
 <a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01916941" target="_blank" rel="noopener">
   Preprint
@@ -62,13 +68,18 @@ weight = 30
   ProdInra
 </a>
 
-* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Transcriptome and chromatin structure
-annotation of liver, CD4+ and CD8+ T cells from four livestock species. *BMC Biology* (accepted). 
+* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Multi-species annotation of transcriptome and chromatin structure in domesticated animals. *BMC Biology* 17: 108. 
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091v2" target="_blank" rel="noopener">
   Preprint
 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-019-0726-5" target="_blank" rel="noopener">
+  PDF
+</a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
   ProdInra
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.fragencode.org" target="_blank" rel="noopener">
+  Website
 </a>
 
 
@@ -403,13 +414,11 @@ https://prodinra.inra.fr/record/189243" target="_blank" rel="noopener">
   ProdInra
 </a>  
 
-## Submitted and in preparation
+## Submitted works
 
 
 * Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
 
-
-* Jehl, F., D&eacute;sert, C., Klopp, C., Brenet, M., **Rau, A.**,  Leroux, S., Boutin, M., Muret, K.,  Blum, Y., Esquerr&eacute;, D., Gourichon, D., Burlot, T., Collin, A., Pitel, F., Benani, A., Zerjal, T., Lagarrigue, S. (2019) Chicken adaptive response to low energy diet: main role of the hypothalamic lipid metabolism revealed by a phenotypic and multi-tissue transcriptomic approach. *Submitted.*
 
 * Sellem, E., Marthey, S., **Rau, A.**, Jouneau, L., Bonnet, A., Perrier, J.-P., Fritz, S., Le Danvic, C. Boussaha, M., Kiefer, H., Jammes, H., Schiblier, L. (2019) A comprehensive overview of bull sperm-borne small non-coding RNAs and their diversity in six breeds. *Submitted.*
 

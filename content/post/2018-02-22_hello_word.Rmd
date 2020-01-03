@@ -57,3 +57,7 @@ www.andrea-rau.com
 Then I added one `www` record of type `CNAME` for my GitHub Pages address, `MYUSERNAME.github.io`.
 
 3. Finally, back in the Settings of my GitHub pages repo, I made sure to check the box for `Enforce HTTPS`.
+
+---
+
+As a third addendum to this post, I changed the font family and size per the nice instructions provided by [Alison Hill}(https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2).

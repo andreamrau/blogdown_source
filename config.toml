@@ -46,11 +46,11 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `coffee`, `dark`, or `1950s`.
-  color_theme = "custom"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "alison"
 
   # Your details.
   name = "Andrea Rau"
@@ -58,7 +58,7 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "INRA", url = "http://www.inra.fr" } ]
+  organizations = [ { name = "INRAE", url = "https://www.inrae.fr" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "newportrait_ar.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
