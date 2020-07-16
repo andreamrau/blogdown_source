@@ -15,7 +15,7 @@ weight = 50
 
 +++
 
-- [**padma**](https://github.com/andreamrau/padma): Pathway deviation scores using multiple factor analysis
+- [**padma**](https://bioconductor.org/packages/padma/): Pathway deviation scores using multiple factor analysis
 - [**Invest Astuces**](https://investastuces.com/simulateurs/): An R/Shiny interactive web application for financial and real estate loan simulations
 - [**Regeneration Rosetta**](http://ls-shiny-prod.uwm.edu/rosetta/): An R/Shiny interactive web application to explore
 regeneration-associated gene expression and chromatin accessibility

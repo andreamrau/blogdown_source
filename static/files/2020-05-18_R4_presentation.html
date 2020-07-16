@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Happy 20th birthday, R! 🎉</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Andrea Rau 🤓" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Happy 20th birthday, R! 🎉
+## <br/>R 4.0.0
+### Andrea Rau 🤓
+### GiBBS team meeting
+### 2020/05/18
+
+---
+
+
+## A little history on R&lt;sup&gt;1&lt;/sup&gt;
+
+* R was "born" in 1992 and released in June, 1995&lt;sup&gt;2&lt;/sup&gt;
+
+* CRAN was founded in 1997, and on **February 29, 2000**, R 1.0.0 was released
+
+* RStudio had its initial public release in 2011
+
+* In 2010, ~400 packages available on CRAN
+
+* In 2019, **15k+ packages** available on CRAN (+ those on RForge, Bioconductor, GitHub, ...)
+
+.footnote[
+[1] https://github.com/revodavid/20-years-of-R
+
+[2] Actually, R arose from S (developed at Bell Laboratoires by John Chambers at al), which was introduced in 1976
+]
+
+
+---
+background-image: url(https://i1.wp.com/flowingdata.com/wp-content/uploads/2020/03/R-turns-20.png?resize=1090%2C618&amp;ssl=1)
+background-size: 800px
+
+Image credit: [Jozef Hajnalai](https://jozef.io/r921-happy-birthday-r/)
+
+---
+
+## Update release schedule
+
+* Typically, R is updated annually with a `x.y.0` release in the spring (with patch releases as needed)
+
+* Individual packages are updated by their maintainers without a fixed calendar
+
+* ... except for Bioconductor packages, which are released twice a year (spring and fall) and are synchronized with the most recent R release (now 4.0.0)
+
+---
+
+
+```
+R version 4.0.0 (2020-04-24) -- "Arbor Day"
+Copyright (C) 2020 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+```
+
+---
+```
+- ...
+- 3.2.0 (2015-04-16) Full of Ingredients 
+- 3.2.1 (2015-06-18) World-Famous Astronaut 
+- 3.2.2 (2015-08-14) Fire Safety 
+- 3.2.3 (2015-12-10) Wooden Christmas-Tree 
+- 3.2.4 (2016-03-11) Very Secure Dishes 
+- 3.2.5 (2016-04-11) Very, Very Secure Dishes 
+- 3.3.0 (2016-05-03) Supposedly Educational
+- 3.3.1 (2016-06-21) Bug in Your Hair
+- 3.3.2 (2016-10-31) Sincere Pumpkin Patch
+- 3.3.3 (2017-03-06) Another Canoe
+- 3.4.0 (2017-04-21) You Stupid Darkness
+- 3.4.1 (2017-06-30) Single Candle
+- 3.4.2 (2017-09-28) Short Summer
+- 3.4.3 (2017-11-30) Kite-Eating Tree
+- 3.4.4 (2018-03-15) Someone to Lean On
+- 3.5.0 (2018-04-23) Joy in Playing
+- 3.5.1 (2018-07-02) Feather Spray
+- 3.5.2 (2018-12-20) Eggshell Igloo
+- 3.5.3 (2019-03-11) Great Truth
+- 3.6.0 (2019-04-26) Planting of a Tree
+- 3.6.1 (2019-07-05) Action of the Toes
+- 3.6.2 (2019-12-12) Dark and Stormy Night
+- 3.6.3 (2020-02-29) Holding the Windsock
+- 4.0.0 (2020-04-24) Arbor Day
+```
+
+---
+background-image: url(https://i.pinimg.com/564x/18/15/94/1815943eb7f60704de929f243e5e20b1.jpg)
+background-size: 300px
+
+
+
+Image credit: [Catawiki](https://www.catawiki.com/catalog/comic-books/series-protagonists/peanuts/2335755-it-s-arbor-day-charlie-brown)
+
+
+---
+
+## Major changes in R (&gt;= 3.6.0)
+
+- Change in the default method used under-the-hood for random number generation (⚠️ for simulations!)
+
+
+```r
+set.seed(12345)
+sample(LETTERS, 3) ## Set seed
+```
+
+```
+## [1] "N" "S" "P"
+```
+
+```r
+set.seed(12345)
+sample(LETTERS, 3) ## Using the same seed = same letters
+```
+
+```
+## [1] "N" "S" "P"
+```
+--
+
+```r
+RNGversion("3.5.1") ## Add this to match previous versions
+set.seed(12345)
+sample(LETTERS, 3)
+```
+
+```
+## [1] "S" "V" "Z"
+```
+
+---
+
+## Major changes in R (&gt;= 4.0.0)
+
+New default color palette that is less saturated and more accessible:
+
+
+```r
+palette("R4")
+palette()
+```
+
+```
+## [1] "black"   "#DF536B" "#61D04F" "#2297E6" "#28E2E5" "#CD0BBC" "#F5C710"
+## [8] "gray62"
+```
+
+.center[![](palette.png)]
+
+---
+
+```r
+scales::show_col(palette())
+```
+
+![](2020-05-18_R4_presentation_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+
+---
+
+## Major changes in R (&gt;= 4.0.0)
+
+`stringsAsFactors = FALSE`: one of the most important feature updates!
+
+- Up to now, by default, R has converted (character) strings to factors when creating a `data.frame` (either using `data.frame` or reading in tabular data with `read.table`) 
+
+--
+
+#### Why is this a (potential) problem? **Reproducibility!**   
+
+--
+
+- `data.frame()` and `read.table()` use by default `stringsAsFactors=TRUE`, **unless** a particular user has set `options(stringsAsFactors = FALSE)`
+
+--
+
+- Automatic string to factor conversion uses sorted unique values for levels, and sorting result is **locale-dependent**
+
+```
+&gt; table(sort(c("0", "1", "A", "B", "a", "b")))
+     01aAbB 01AaBb 01ABab aAbB01 
+        793     57     14      8 
+
+```
+(2nd group includes Danish/Norweigan/Turkish, 3rd group includes Japanese/Korean, 4th group includes Czech/Slovak)
+
+https://developer.r-project.org/Blog/public/2020/02/16/stringsasfactors
+
+---
+
+## A little history about `stringsAsFactors` &lt;sup&gt;1&lt;/sup&gt;
+
+* Originally, R users were nearly all statisticians working with tabular data ➡ non-numeric varuiables almost always encoded categorical variables (sex, experimental group, breed, ...) that are encoded by **factor variables**
+
+
+--
+ 
+#### Why factor variables?
+    
+* Modeling functions like `lm()` and `lm()` expand categorical variables with *n* levels into *n-1* individual dummy variables  ➡ if you're just doing a regression, `stringsAsFActors=TRUE` makes sense!
+
+* Factor variables are encoded as integers by R (e.g., "disease" = 1 and "non-disease" = 2), which saves space (only have to store integer levels and labels)
+
+--
+
+#### But today, R is used by a wider group of people doing wider kinds of analyses!
+
+.footnote[
+[1] https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography/
+]
+
+---
+
+## Example: "non-traditional" genomics analyses in R
+
+
+
+Source: https://genome.sph.umich.edu/wiki/Code_Sample:_Generating_Manhattan_Plots_in_R
+
+
+```r
+manhattan.plot(dd_old$chr, dd_old$pos, dd_old$pvalue, 
+               col = c("#DF536B", "#2297E6"), 
+               sig.level=5e-8)
+```
+
+![](2020-05-18_R4_presentation_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+
+---
+
+## Example: "non-traditional" genomics analyses in R
+
+Source: https://genome.sph.umich.edu/wiki/Code_Sample:_Generating_Manhattan_Plots_in_R
+
+
+```r
+manhattan.plot(dd$chr, dd$pos, dd$pvalue, 
+               col = c("#DF536B", "#2297E6"), 
+               sig.level=5e-8)
+```
+
+![](2020-05-18_R4_presentation_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+
+
+---
+
+
+## Other changes in R (&gt;= 4.0.0)
+
+- All packages must now be re-installed in order to update into the new version
+
+- Performance improvements (in particular, ggplot2 graphics should render faster), reduced memory footprint
+
+- `list2DF()` to create a data.frame from a list 
+
+--
+- Single and double quotes can be used interchangeably:
+
+
+```r
+c("I want to say \"Hello!\"") 
+```
+
+```
+## [1] "I want to say \"Hello!\""
+```
+
+
+```r
+paste("Voglio dire", dQuote("Ciao!"), collapse="") 
+```
+
+```
+## [1] "Voglio dire \"Ciao!\""
+```
+--
+
+
+```r
+## New way
+r"(Je veux dire "Bonjour!")"
+```
+
+```
+## [1] "Je veux dire \"Bonjour!\""
+```
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

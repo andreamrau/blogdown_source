@@ -49,6 +49,40 @@ weight = 30
 
 ## Journal Articles
 
+<center>**2020**</center>
+
+
+* Sellem, E., Marthey, S., **Rau, A.**, Jouneau, L., Bonnet, A., Perrier, J.-P., Fritz, S., Le Danvic, C. Boussaha, M., Kiefer, H., Jammes, H., Schiblier, L. (2020) A comprehensive overview of bull sperm-borne small non-coding RNAs and their diversity in six breeds. *Epigenetics and Chromatin* 13:19. doi: 10.1186/s13072-020-00340-0.  
+<a class="btn btn-primary btn-outline btn-xs" href="https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00340-0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+* **Rau, A.**, Manansala, R., Flister, M. J., Rui, H., Jaffr&eacute;zic, F., Lalo&euml;, D.&sup1;, and Auer, P. L.&sup1; (2020) Individualized multi-omic pathway deviation scores using multiple factor analysis. *Biostatistics* (accepted), https://doi.org/10.1101/827022.   
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v2" target="_blank" rel="noopener">
+  Preprint
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/RMFRJLA_2019" target="_blank" rel="noopener">
+  Code
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href=" 	https://bioconductor.org/packages/padma/" target="_blank" rel="noopener">
+  Software
+</a>  
+&sup1;These authors contributed equally to this work.
+
+* Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2020) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics*, 14:2, 752-767.
+<a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01916941" target="_blank" rel="noopener">
+  Preprint
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/maskmeans" target="_blank" rel="noopener">
+  Code
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://projecteuclid.org/euclid.aoas/1593449324" target="_blank" rel="noopener">
+  PDF
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
+  ProdInra
+</a>
+
 <center>**2019**</center>
 
 * Jehl, F., D&eacute;sert, C., Klopp, C., Brenet, M., **Rau, A.**,  Leroux, S., Boutin, M., Muret, K.,  Blum, Y., Esquerr&eacute;, D., Gourichon, D., Burlot, T., Collin, A., Pitel, F., Benani, A., Zerjal, T., Lagarrigue, S. (2019) Chicken adaptive response to low energy diet: main role of the hypothalamic lipid metabolism revealed by a phenotypic and multi-tissue transcriptomic approach. *BMC Genomics*, 20. doi: 10.1186/s12864-019-6384-8.  
@@ -56,17 +90,6 @@ weight = 30
   PDF
 </a>
 
-
-* Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2019) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics* (accepted).
-<a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01916941" target="_blank" rel="noopener">
-  Preprint
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/maskmeans" target="_blank" rel="noopener">
-  Code
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
-  ProdInra
-</a>
 
 * Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Multi-species annotation of transcriptome and chromatin structure in domesticated animals. *BMC Biology* 17: 108. 
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091v2" target="_blank" rel="noopener">
@@ -419,18 +442,10 @@ https://prodinra.inra.fr/record/189243" target="_blank" rel="noopener">
 
 * Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
 
+* Devogel, N., Auer, P. L., Manansala, R., **Rau, A.**, and Wang, T. (2020) A unified linear mixed model for familial relatedness and population structure in genetic association studies. *Submitted.*
 
-* Sellem, E., Marthey, S., **Rau, A.**, Jouneau, L., Bonnet, A., Perrier, J.-P., Fritz, S., Le Danvic, C. Boussaha, M., Kiefer, H., Jammes, H., Schiblier, L. (2019) A comprehensive overview of bull sperm-borne small non-coding RNAs and their diversity in six breeds. *Submitted.*
+* Cho, Y., **Rau, A.**, Reiner, A., Auer, P. L. (2020) Mendelian randomization analysis with survival outcomes. *Submitted.*
 
-* **Rau, A.**, Manansala, R., Flister, M. J., Rui, H., Jaffr&eacute;zic, F., Lalo&euml;, D.&sup1;, and Auer, P. L.&sup1; (2019) Individualized multi-omic pathway deviation scores using multiple factor analysis *bioRxiv*, https://doi.org/10.1101/827022. 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v2" target="_blank" rel="noopener">
-  Preprint
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/RMFRJLA_2019" target="_blank" rel="noopener">
-  Code
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/padma" target="_blank" rel="noopener">
-  Software
-</a>  
-&sup1;These authors contributed equally to this work.
+* Cazals, A., Estell&eacute;, J., Bruneau, N., Coville, J.-L., Menanteau, P., Rossignol, M.-N., Jardet, D., Bevilacqua, C., **Rau, A.**, Bed'Hom, B., Velge, P., and Calenge, F. (2020) Impact of host genetics on caecal microbiota composition and on *Salmonella* carriage in chicken. *Submitted.*
 
+* Karlis, D., Mazo, G. and **Rau, A.** (2020) A randomized pairwise likelihood method with applications to multivariate count data. *In preparation.*

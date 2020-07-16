@@ -39,3 +39,4 @@ highlight = true
 
 +++
 
+<script async class="speakerdeck-embed" data-id="c9240a1e39fa4c4a8c6c878313d02957" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

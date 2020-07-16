@@ -843,12 +843,14 @@ article .article-metadata {
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   transition: all 0.2s ease-out;
+  /* max-width: 200px; */
 }
 
 .card .card-image {
   display: block;
   position: relative;
   min-height: 100px;
+ /* max-width: 200px; */
 }
 
 .card h4 {

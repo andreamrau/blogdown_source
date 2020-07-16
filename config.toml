@@ -13,7 +13,7 @@ publishDir = "../andreamrau.github.io"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2019"
+copyright = "&copy; 2020"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -62,7 +62,7 @@ defaultContentLanguageInSubdir = false
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "newportrait_ar.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "andrea.rau@inra.fr"
+  email = "andrea.rau@inrae.fr"
   address = "Domaine de Vilvert, Bâtiment 211, 78352 Jouy-en-Josas, France"
   office_hours = "Email for appointment"
   phone = "+33 (0)1.34.65.22.82"
@@ -220,7 +220,7 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:andrea.rau@inra.fr"
+    link = "mailto:andrea.rau@inrae.fr"
 
   [[params.social]]
     icon = "twitter"
