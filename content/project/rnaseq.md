@@ -6,10 +6,10 @@ date = "2018-08-02"
 title = "RNA-seq co-expression"
 
 # Project summary to display on homepage.
-summary = "Identify clusters of co-expressed genes from RNA-seq data"
+summary = "Identify and visualize clusters of co-expressed genes from RNA-seq data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "rnaseq-coexpression.png"
+image_preview = "coseq_hex.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

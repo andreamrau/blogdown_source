@@ -156,11 +156,7 @@ https://prodinra.inra.fr/record/481441" target="_blank" rel="noopener">
   ProdInra
 </a>
 
-
-
-<center>**2018**</center>
-
-* **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, bty551, doi: https://doi.org/10.1101/227926.
+* **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, 35(1): 62-68. doi: https://doi.org/10.1093/bioinformatics/bty551.
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/02/227926" target="_blank" rel="noopener">
   Preprint
 </a> 
@@ -176,6 +172,9 @@ https://prodinra.inra.fr/record/481441" target="_blank" rel="noopener">
 <a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/452734" target="_blank" rel="noopener">
   ProdInra
 </a>
+
+<center>**2018**</center>
+
 
 
 * Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2018) Clustering transformed compositional data using K-means, with applications in gene expression and bicycle sharing system data. *Journal of Applied Statistics*, 46(1):47-65.
@@ -440,12 +439,9 @@ https://prodinra.inra.fr/record/189243" target="_blank" rel="noopener">
 ## Submitted works
 
 
-* Revilla, M., **Rau, A.**, Crespo-Piazuelo, D., Ramayo-Caldas, Y., Estell&eacute;, J., INIA, Ballester, M., Folch, J. M. (2019) An integrative gene network analysis of the genetic determination of pig fatty acid composition based on adipose tissue RNA sequencing. *Submitted.*
-
 * Devogel, N., Auer, P. L., Manansala, R., **Rau, A.**, and Wang, T. (2020) A unified linear mixed model for familial relatedness and population structure in genetic association studies. *Submitted.*
 
 * Cho, Y., **Rau, A.**, Reiner, A., Auer, P. L. (2020) Mendelian randomization analysis with survival outcomes. *Submitted.*
 
 * Cazals, A., Estell&eacute;, J., Bruneau, N., Coville, J.-L., Menanteau, P., Rossignol, M.-N., Jardet, D., Bevilacqua, C., **Rau, A.**, Bed'Hom, B., Velge, P., and Calenge, F. (2020) Impact of host genetics on caecal microbiota composition and on *Salmonella* carriage in chicken. *Submitted.*
 
-* Karlis, D., Mazo, G. and **Rau, A.** (2020) A randomized pairwise likelihood method with applications to multivariate count data. *In preparation.*

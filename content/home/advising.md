@@ -15,7 +15,8 @@ weight = 60
 
 +++
 
-- **Fanny Mollandin** (2019-2022 Ph.D.): "Incorporating known functional annotations into Bayesian genomic prediction models" (co-supervision with Pascal Croiseau)
+- **Fanny Mollandin** (2019-2022 Ph.D.): "Incorporating known functional annotations into Bayesian genomic prediction models" (co-supervision with Pascal Croiseau, co-funding
+from EU Horizon 2020 RIA grant [GENE-SWitCH](https://www.gene-switch.eu))
 
 ---
 

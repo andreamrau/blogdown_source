@@ -28,21 +28,21 @@ filter_default = 0
 # Add or remove as many filters (`[[filter]]` instances) as you like.
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-[[filter]]
-  name = "All"
-  tag = "*"
-
-[[filter]]
-  name = "RNA-seq co-expression"
-  tag = ".rnaseq"
-  
-[[filter]]
-  name = "Networks"
-  tag = ".networks"
-  
-[[filter]]
-  name = "Multi-omic integration"
-  tag = ".integration"
+#[[filter]]
+#  name = "All"
+#  tag = "*"
+#
+#[[filter]]
+#  name = "RNA-seq co-expression"
+#  tag = ".rnaseq"
+#  
+#[[filter]]
+#  name = "Networks"
+#  tag = ".networks"
+#  
+#[[filter]]
+#  name = "Multi-omic integration"
+#  tag = ".integration"
 
 +++
 

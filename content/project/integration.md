@@ -6,10 +6,10 @@ date = "2018-08-02"
 title = "Multi-omic data integration"
 
 # Project summary to display on homepage.
-summary = "Integrate multi-omic data representing gene expression, methylation, copy number alterations, somatic mutations, and microRNA expression"
+summary = "Methodological contributions to integrative multi-omic analyses"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "edge_in_tcga_figure.png"
+image_preview = "integrative_illustrate.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -42,24 +42,44 @@ regeneration-associated gene expression and chromatin accessibility
 
 ## Related publications:
 
-* Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2019) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics* (accepted).
+* **Rau, A.**, Manansala, R., Flister, M. J., Rui, H., Jaffr&eacute;zic, F., Lalo&euml;, D.&sup1;, and Auer, P. L.&sup1; (2020) Individualized multi-omic pathway deviation scores using multiple factor analysis. *Biostatistics* (accepted), https://doi.org/10.1101/827022.   
+<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v2" target="_blank" rel="noopener">
+  Preprint
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/RMFRJLA_2019" target="_blank" rel="noopener">
+  Code
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href=" 	https://bioconductor.org/packages/padma/" target="_blank" rel="noopener">
+  Software
+</a>  
+&sup1;These authors contributed equally to this work.
+
+* Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2020) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics*, 14:2, 752-767.
 <a class="btn btn-primary btn-outline btn-xs" href="https://hal.archives-ouvertes.fr/hal-01916941" target="_blank" rel="noopener">
   Preprint
 </a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/maskmeans" target="_blank" rel="noopener">
   Code
 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://projecteuclid.org/euclid.aoas/1593449324" target="_blank" rel="noopener">
+  PDF
+</a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
   ProdInra
 </a>
 
-* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Transcriptome and chromatin structure
-annotation of liver, CD4+ and CD8+ T cells from four livestock species. *BMC Biology* (accepted). 
+* Foissac, S., Djebali, S., Munyard, K., Villa-Vialaneix, N., **Rau, A.**, Muret, K., Esquerre, D., Zytnicki, M., Derrien, T., Bardou, P., Blanc, F., Cabau, C., Crisci, E., Dhorne-Pollet, S., Drouet, F., Gonzales, I., Goubil, A., Lacroix-Lamande, S., Laurent, F., Marthey, S., Marti-Marimon, M., Momal-Leisenring, R., Mompart, F., Quere, P., Robelin, D., San Cristobal, M., Tosser-Klopp, G., Vincent-Naulleau, S., Fabre, S., Pinard-Van der Laan, M.-H., Klopp, C., Tixier-Boichard, M., Acloque, H., Lagarrigue, S., Giuffra, E. (2019) Multi-species annotation of transcriptome and chromatin structure in domesticated animals. *BMC Biology* 17: 108. 
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/11/316091v2" target="_blank" rel="noopener">
   Preprint
 </a>
+<a class="btn btn-primary btn-outline btn-xs" href="https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-019-0726-5" target="_blank" rel="noopener">
+  PDF
+</a>
 <a class="btn btn-primary btn-outline btn-xs" href="https://prodinra.inra.fr/record/441070" target="_blank" rel="noopener">
   ProdInra
+</a>
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.fragencode.org" target="_blank" rel="noopener">
+  Website
 </a>
 
 
@@ -95,7 +115,7 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
   ProdInra
 </a>
 
-* **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, bty551, doi: https://doi.org/10.1101/227926.
+* **Rau, A.**, Flister, M. J., Rui, H. and Livermore Auer, P. (2018) Exploring drivers of gene expression in The Cancer Genome Atlas. *Bioinformatics*, 35(1): 62-68. doi: https://doi.org/10.1093/bioinformatics/bty551.
 <a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/early/2018/05/02/227926" target="_blank" rel="noopener">
   Preprint
 </a> 
@@ -112,17 +132,7 @@ regeneration-associated gene expression and chromatin accessibility. *G3: Genes|
   ProdInra
 </a>
 
-* **Rau, A.**, Manansala, R., Flister, M. J., Rui, H., Jaffr&eacute;zic, F., Lalo&euml;, D.&sup1;, and Auer, P. L.&sup1; (2019) Individualized multi-omic pathway deviation scores using multiple factor analysis *bioRxiv*, https://doi.org/10.1101/827022. 
-<a class="btn btn-primary btn-outline btn-xs" href="https://www.biorxiv.org/content/10.1101/827022v2" target="_blank" rel="noopener">
-  Preprint
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/RMFRJLA_2019" target="_blank" rel="noopener">
-  Code
-</a>
-<a class="btn btn-primary btn-outline btn-xs" href="https://github.com/andreamrau/padma" target="_blank" rel="noopener">
-  Software
-</a>  
-&sup1;These authors contributed equally to this work.
+
 
 
 
