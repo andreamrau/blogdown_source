@@ -60,4 +60,4 @@ Then I added one `www` record of type `CNAME` for my GitHub Pages address, `MYUS
 
 ---
 
-As a third addendum to this post, I changed the font family and size per the nice instructions provided by [Alison Hill}(https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2).
+As a third addendum to this post, I changed the font family and size per the nice instructions provided by [Alison Hill](https://discourse.gohugo.io/t/hugo-academic-theme-how-to-change-the-font-size/17294/2).

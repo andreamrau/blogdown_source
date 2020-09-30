@@ -51,6 +51,7 @@ weight = 30
 
 <center>**2020**</center>
 
+* Cho, Y., **Rau, A.**, Reiner, A., Auer, P. L. (2020) Mendelian randomization analysis with survival outcomes. *Genetic Epidemiology* (accepted).
 
 * Sellem, E., Marthey, S., **Rau, A.**, Jouneau, L., Bonnet, A., Perrier, J.-P., Fritz, S., Le Danvic, C. Boussaha, M., Kiefer, H., Jammes, H., Schiblier, L. (2020) A comprehensive overview of bull sperm-borne small non-coding RNAs and their diversity in six breeds. *Epigenetics and Chromatin* 13:19. doi: 10.1186/s13072-020-00340-0.  
 <a class="btn btn-primary btn-outline btn-xs" href="https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/s13072-020-00340-0" target="_blank" rel="noopener">
@@ -67,6 +68,9 @@ weight = 30
 <a class="btn btn-primary btn-outline btn-xs" href=" 	https://bioconductor.org/packages/padma/" target="_blank" rel="noopener">
   Software
 </a>  
+<a class="btn btn-primary btn-outline btn-xs" href="https://academic.oup.com/biostatistics/advance-article/doi/10.1093/biostatistics/kxaa029/5882080?guestAccessKey=9a15cdfb-100e-4478-8b68-e0a1f9e495f4" target="_blank" rel="noopener">
+  PDF
+</a> 
 &sup1;These authors contributed equally to this work.
 
 * Godichon-Baggioni, A., Maugis-Rabusseau, C. and **Rau, A.** (2020) Multi-view cluster aggregation and splitting, with an application to multi-omic breast cancer data. *Annals of Applied Statistics*, 14:2, 752-767.
@@ -441,7 +445,7 @@ https://prodinra.inra.fr/record/189243" target="_blank" rel="noopener">
 
 * Devogel, N., Auer, P. L., Manansala, R., **Rau, A.**, and Wang, T. (2020) A unified linear mixed model for familial relatedness and population structure in genetic association studies. *Submitted.*
 
-* Cho, Y., **Rau, A.**, Reiner, A., Auer, P. L. (2020) Mendelian randomization analysis with survival outcomes. *Submitted.*
-
 * Cazals, A., Estell&eacute;, J., Bruneau, N., Coville, J.-L., Menanteau, P., Rossignol, M.-N., Jardet, D., Bevilacqua, C., **Rau, A.**, Bed'Hom, B., Velge, P., and Calenge, F. (2020) Impact of host genetics on caecal microbiota composition and on *Salmonella* carriage in chicken. *Submitted.*
+
+* Mollandin, F., **Rau, A.**, and Croiseau, P. (2020) An evaluation of the interpretability and predictive performance of the BayesR model for genomic prediction. *Submitted.*
 
