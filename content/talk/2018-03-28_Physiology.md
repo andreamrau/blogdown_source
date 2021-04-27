@@ -2,26 +2,25 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Exploring drivers of gene expression in The Cancer Genome Atlas"
-time_start = 2018-12-04T15:30:00
-time_end = 2018-12-04T16:30:00
+time_start = 2018-03-28T8:30:00
+time_end = 2018-03-28T9:30:00
 abstract = ""
 abstract_short = ""
-event = "Division of Biostatistics Seminar, MCW"
-event_url = "https://www.mcw.edu/departments/biostatistics/"
-location = "Milwaukee, Wisconsin, USA"
+event = "Physiology Department Seminar at MCW"
+event_url = "https://www.mcw.edu/Physiology.htm"
+location = "Milwaukee, WI"
 
 # Is this a selected talk? (true/false)
 selected = false
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
-#   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
 projects = ["integration"]
 tags = ["integration"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
+url_slides = "https://speakerdeck.com/andreamrau/exploring-drivers-of-gene-expression-in-the-cancer-genome-atlas"
 url_video = ""
 url_code = ""
 
@@ -39,3 +38,4 @@ highlight = true
 
 +++
 
+<script async class="speakerdeck-embed" data-id="3f19454be50e458ab8c4dbd98c8e520c" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>

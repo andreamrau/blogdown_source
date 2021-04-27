@@ -15,17 +15,15 @@ weight = 50
 
 +++
 
-- [**padma**](https://bioconductor.org/packages/padma/): Pathway deviation scores using multiple factor analysis
-- [**Invest Astuces**](https://investastuces.com/simulateurs/): An R/Shiny interactive web application for financial and real estate loan simulations
-- [**Regeneration Rosetta**](http://ls-shiny-prod.uwm.edu/rosetta/): An R/Shiny interactive web application to explore
-regeneration-associated gene expression and chromatin accessibility
-- [**maskmeans**](https://github.com/andreamrau/maskmeans): Multi-view aggregation/splitting K-means clustering algorithm.
-- [**Edge in TCGA**](http://ls-shiny-prod.uwm.edu/edge_in_tcga/): An R/Shiny interactive web application for the exploration of drivers of gene expression in [The Cancer Genome Atlas](https://cancergenome.nih.gov/).
-- [**coseq**](https://bioconductor.org/packages/coseq/): Co-expression analysis of sequencing data.
-- [**ICAL**](https://github.com/Gallopin/ICAL): Model selection for model based clustering of annotated data.
-- [**metaRNASeq**](https://cran.r-project.org/web/packages/metaRNASeq/index.html): Meta-analysis of RNA-seq data.
-- [**HTSDiff**](https://r-forge.r-project.org/R/?group_id=1504): Differential analysis for RNA-seq data.
-- [**HTSFilter**](http://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html): Filter for replicated high-throughput sequencing data.
-- [**HTSCluster**](http://cran.r-project.org/web/packages/HTSCluster): Clustering high-throughput sequencing data with Poisson mixture models.
-- [**ebdbNet**](http://cran.r-project.org/web/packages/ebdbNet): Empirical Bayes estimation for dynamic Bayesian networks.
-
+1. **padma**: Pathway deviation scores using multiple factor analysis, available at [BioC](https://bioconductor.org/packages/padma/)  
+1. **Invest Astuces**: An R/Shiny interactive web application for financial and real estate loan simulations, available as a [Shiny web app](https://investastuces.com/simulateurs/)  
+1. **Regeneration Rosetta**: An R/Shiny interactive web application to explore regeneration-associated gene expression and chromatin accessibility, available as a [Shiny web app](http://ls-shiny-prod.uwm.edu/rosetta/)  
+1. **maskmeans**: Multi-view aggregation/splitting K-means clustering algorithm, available at [GitHub](https://github.com/andreamrau/maskmeans)  
+1. **Edge in TCGA**: An R/Shiny interactive web application for the exploration of drivers of gene expression in The Cancer Genome Atlas, available as a [Shiny web app](http://ls-shiny-prod.uwm.edu/edge_in_tcga/)  
+1. **coseq**: Co-expression analysis of sequencing data, available at [BioC](https://bioconductor.org/packages/coseq/)  
+1. **ICAL**: Model selection for model based clustering of annotated data, available at [GitHub](https://github.com/Gallopin/ICAL)  
+1. **metaRNASeq**: Meta-analysis of RNA-seq data, available at [CRAN](https://cran.r-project.org/web/packages/metaRNASeq/index.html)  
+1. **HTSDiff**: Differential analysis for RNA-seq data, available at [R-Forge](https://r-forge.r-project.org/R/?group_id=1504)  
+1. **HTSFilter**: Filter for replicated high-throughput sequencing data, available at [BioC](http://www.bioconductor.org/packages/release/bioc/html/HTSFilter.html)  
+1. **HTSCluster**: Clustering high-throughput sequencing data with Poisson mixture models, available at [CRAN](http://cran.r-project.org/web/packages/HTSCluster)  
+1. **ebdbNet**: Empirical Bayes estimation for dynamic Bayesian networks, available at [CRAN](http://cran.r-project.org/web/packages/ebdbNet)  
